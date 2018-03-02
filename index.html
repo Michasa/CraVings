@@ -1,63 +1,90 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <title>Document</title>
-    <link href="https://meyerweb.com/eric/tools/css/reset/reset.css" rel="stylesheet">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!--STYLESHEETS-->
+    <!--Google Fonts-->
+
+    <!--Font Awesome Icons-->
+    <link href="https://use.fontawesome.com/releases/v5.0.8/css/all.css" rel="stylesheet">
+    <!--Bootstrap4-->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
     <style>
         html {
-            font-size: 16px;
+            font-size: 23px;
         }
-        .navbar {
+
+        /*Navigation Bar*/
+/*
+        .nav_bar {
             display: flex;
             flex-direction: row;
-            justify-content: flex-start
+            justify-content: flex-end;
         }
-/*   this is a flex child*/ .about {
-/*            flex-grow: 1*/
-            margin-left: auto;
-        }
-        ul li {
-            border-bottom:  red 1.5px solid;
+
+        nav li {
+            border-bottom: yellowgreen 1.5px solid;
             margin: 10px;
             list-style: none;
-            
         }
-        
+*/
+
+        /*Main Content*/
+
         h1.title {
-            font-size: 37px;
+            font-size: 3em;
             text-align: center;
         }
-        
-        section {
+
+        .section {
             text-align: center;
+        }
+
+        div#main {
+            background-color:white;
+        }
+
+        .ve {
+            color:yellowgreen;
         }
     </style>
 </head>
+
 <body>
-       <nav>
-           <ul class="navbar">
-               <li> Give Recommendations</li>
-               <li> Vegan Articles</li>
-               <li class="about">About</li>
-           </ul>
-       </nav>
-   <section>
-      <div>
-          <h1 class="title">CraVings</h1>
-          <p>Hey you, what you cravin'?...</p>
-      </div>
-       <div class="Menu">
-           <a href=""> Sweet Treats</a>
-           <a href=""> Pizza</a>
-           <a href=""> Burgers</a>
-       </div>
-   </section>
-   <footer>
-       <p>
-           
-       </p>
-   </footer>
+    <!--Navbar-->
+    <nav> 
+      <div class="container-fluid">
+       <ul class="nav navbar-default">
+        <li>Recommend Something</li>
+        <li>Blog</li>
+        <li>Events</li>
+        <li class="about">About</li>
+        </ul>
+        </div>
+    </nav>
+    <!--Mainpage-->
+    <div class="jumbotron text-center">
+    <h1>Cra<span class="ve">Ve</span> London</h1>
+    <p class="lead">No need for hanger; Sate your cravings and your conscientious with our tasty AF <span class="ve">vegan</span> alternatives here in London </p>
+   <div id="main" class="container-fluid section">
+        <div class="menu">
+            <button> <a href=""> Sweet Treats</a> </button>
+            <button> <a href=""> Pizza</a></button>
+            <button> <a href=""> Burgers</a></button>
+            <button> <a href=""> World Foods</a></button>
+            <button> <a href=""> Surprise Me</a></button>
+        </div>
+    </div>
+     </div>
     
+    <!--Footer-->
+    <footer class="footer foot_style text-center">
+        <div class="container-fluid">
+            <p>Made with __ by Hannah + Michelle // Powered by CodeFirst:Girls_Paddington </p>
+        </div>
+    </footer>
 </body>
+
 </html>
