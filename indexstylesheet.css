@@ -1,0 +1,87 @@
+/*GLOBAL STYLING & MEDIA QUERIES*/
+
+body {
+    font-size: 14px;
+    margin: 0;
+    padding: 0;
+
+}
+
+.ourContainer {
+    height: 95vh
+}
+
+/*NAV BAR*/
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    font-size: 1.6rem;
+    padding-left: 0;
+    font-family: 'Permanent Marker';
+}
+
+ul.navBar_main {
+    padding-left: 10px;
+}
+
+ul.about_social {
+    padding-left: 10px
+}
+
+nav ul li {
+    border-bottom: yellowgreen 1.2px solid;
+    margin-right: 10px;
+    display: inline-block;
+}
+
+/*MAIN CONTENT*/
+
+/*>>title<<*/
+
+h1.title {
+    font-size: 5.5rem;
+    text-align: center;
+    margin-bottom: 0px;
+}
+
+h1.title span.ve {
+    color: yellowgreen;
+}
+
+
+/*>>description<<*/
+
+p.lead {
+    font-size: 1.5em;
+    font-weight: 300;
+    text-align: center;
+}
+
+span.hangryRed {
+    font-family: 'Permanent Marker';
+    font: 3rem;
+    color: darkred;
+}
+
+.description {
+    font-size: 1.75rem;
+    text-align: center;
+    align-self: center;
+}
+
+.location {
+    font-family: 'Comfortaa';
+    font-size: 2.0rem;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    color: ;
+}
+
+/*>>choices<<*/
+
+
+.treat {
+    font-family: 'Pacifico';
