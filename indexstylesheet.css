@@ -48,21 +48,24 @@ h1.title {
 
 h1.title span.ve {
     color: yellowgreen;
+    font-family: 'Delius Swash Caps',cursive;
 }
 
 
 /*>>description<<*/
 
 p.lead {
-    font-size: 1.5em;
+    font-size: 1.8em;
     font-weight: 300;
     text-align: center;
+    text-transform: lowercase;
+    font-family: 'Delius Swash Caps', cursive;
 }
 
 span.hangryRed {
-    font-family: 'Permanent Marker';
-    font: 3rem;
-    color: darkred;
+    font-family: 'Chewy';
+    font-size: 2.2rem;
+    color: orangered;
 }
 
 .description {
@@ -72,7 +75,7 @@ span.hangryRed {
 }
 
 .location {
-    font-family: 'Comfortaa';
+    font-family: 'Delius Swash Caps', cursive;
     font-size: 2.0rem;
     padding: 0;
     margin: 0;
@@ -84,4 +87,7 @@ span.hangryRed {
 
 
 .treat {
-    font-family: 'Pacifico';
+    font-family: 'Delius Swash Caps', cursive;
+    font-size: 2rem;
+    text-decoration:;
+}
