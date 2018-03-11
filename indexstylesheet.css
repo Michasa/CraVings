@@ -1,14 +1,15 @@
 /*GLOBAL STYLING & MEDIA QUERIES*/
 
-body {
-    font-size: 14px;
+html, body {
+	width: 100%;
+	height: 100%;
     margin: 0;
     padding: 0;
-
+   
 }
 
 .ourContainer {
-    height: 95vh
+    height: 100vh;
 }
 
 /*NAV BAR*/
@@ -37,6 +38,36 @@ nav ul li {
 }
 
 /*MAIN CONTENT*/
+/*background*/
+div.backgroundStyle {
+background: linear-gradient(147deg, #77a7c5, #a7c6db, #c0d1db, #fe956e);
+background-size: 800% 800%;
+-webkit-animation: AnimationName 23s ease infinite;
+-moz-animation: AnimationName 23s ease infinite;
+-o-animation: AnimationName 23s cubic-bezier(.21, -0.13, .25, 1) infinite;
+animation: AnimationName 23s ease infinite;
+}
+
+@-webkit-keyframes AnimationName {
+    0%{background-position:0% 48%}
+    50%{background-position:100% 53%}
+    100%{background-position:0% 48%}
+}
+@-moz-keyframes AnimationName {
+    0%{background-position:0% 48%}
+    50%{background-position:100% 53%}
+    100%{background-position:0% 48%}
+}
+@-o-keyframes AnimationName {
+    0%{background-position:0% 48%}
+    50%{background-position:100% 53%}
+    100%{background-position:0% 48%}
+}
+@keyframes AnimationName {
+    0%{background-position:0% 48%}
+    50%{background-position:100% 53%}
+    100%{background-position:0% 48%}
+}
 
 /*>>title<<*/
 
@@ -44,13 +75,23 @@ h1.title {
     font-size: 5.5rem;
     text-align: center;
     margin-bottom: 0px;
+    text-align: center;
+    text-shadow: 2px 3px rgba(68, 69, 70, 0.35);
 }
 
 h1.title span.ve {
     color: yellowgreen;
+    text-shadow: 2px 3px rgba(154, 205, 50, 0.31);
     font-family: 'Delius Swash Caps',cursive;
 }
 
+.location {
+    font-family: 'Delius Swash Caps', cursive;
+    font-size: 2.0rem;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
 
 /*>>description<<*/
 
@@ -60,12 +101,21 @@ p.lead {
     text-align: center;
     text-transform: lowercase;
     font-family: 'Delius Swash Caps', cursive;
-}
+    }
+
 
 span.hangryRed {
-    font-family: 'Chewy';
-    font-size: 2.2rem;
-    color: orangered;
+    font-family: 'Permanent Marker';
+    color: rgb(214, 68, 59);
+    font-size: 2.45rem;
+    color: rgb(214, 68, 59);
+}
+
+span.treat {
+    font-family: 'Delius Swash Caps', cursive;
+    font-size: 2rem;
+    text-decoration:;
+    color: #c7a407;
 }
 
 .description {
@@ -74,20 +124,4 @@ span.hangryRed {
     align-self: center;
 }
 
-.location {
-    font-family: 'Delius Swash Caps', cursive;
-    font-size: 2.0rem;
-    padding: 0;
-    margin: 0;
-    text-align: center;
-    color: ;
-}
-
 /*>>choices<<*/
-
-
-.treat {
-    font-family: 'Delius Swash Caps', cursive;
-    font-size: 2rem;
-    text-decoration:;
-}
