@@ -19,7 +19,8 @@ body {
         width: 690px;
         height: 129px;
         margin: auto;
-        padding: 0;!ant
+        padding: 0;
+        !ant
     }
 }
 
@@ -81,6 +82,7 @@ body {
         background-position: 0% 48%
     }
 }
+
 /*NAV BAR*/
 
 nav div.leafy_menu_btn {
@@ -88,21 +90,20 @@ nav div.leafy_menu_btn {
 }
 
 nav.nav-Bg {
-/*    background-color: linear-gradient(to right,#392033,white);*/
-    background-image: linear-gradient(to right, rgba(115, 170, 204,  0.37), rgba(150, 162, 203, 0.37), rgb(177, 155, 189));
-    padding: 0;
+    /*    background-color: linear-gradient(to right,#392033,white);*/
+    background-image: linear-gradient(to right, rgba(115, 170, 204, 0.37), rgba(150, 162, 203, 0.37), rgb(177, 155, 189, 0.2));
+    padding: 0, 
+/*        TODO use cloud texture http://www.wallcoo.net/cartoon/Scrapbook_Art_Paper_Summer_Fun/images/kcroninbarrow-summerfun-cloudpaper.jpg*/
     font-size: 1.3rem;
     box-shadow: 0.5px 2px #f8f0ed;
 }
-.navbar-nav .nav-link {
-   color: deeppink;
-}
+
 /*MAIN CONTENT*/
 
 /*>>title<<*/
 
 h1.title {
-   
+
     font-size: 5.5rem;
     text-align: center;
     margin-bottom: 0px;
@@ -114,7 +115,7 @@ h1.title {
 h1 span.ve {
     color: #9acd32;
     font-family: 'Delius Swash Caps', cursive;
-     text-shadow: 2px 3px #6156e5;
+    text-shadow: 2px 3px #6156e5;
 }
 
 .location {
@@ -123,10 +124,11 @@ h1 span.ve {
     padding: 0;
     margin: 0;
     text-align: center;
-    text-shadow: 2px 2px  #7d78b7;
+    text-shadow: 2px 2px #7d78b7;
 }
 
 /*>>description<<*/
+
 p.lead {
     font-size: 1.8em;
     font-weight: 300;
@@ -137,7 +139,7 @@ p.lead {
 
 span.hangryRed {
     font-family: 'Permanent Marker';
-    color:  #fe956e;
+    color: #fe956e;
     font-size: 2.45rem;
     color: rgb(214, 68, 59);
     text-shadow: 2px 3px #464a4c;
@@ -159,4 +161,9 @@ span.treat {
 
 /*>>choices<<*/
 
+/*FOOTER*/
 
+footer {
+    background-image: linear-gradient(to right top, #78a120, #89ac27, #9ab72e, #acc335, #bece3c);
+
+}
