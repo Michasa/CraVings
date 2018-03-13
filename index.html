@@ -7,29 +7,36 @@
     <!--Font Awesome Icons-->
     <link href="https://use.fontawesome.com/releases/v5.0.8/css/all.css" rel="stylesheet">
     <!--Bootstrap_4-->
-    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <!--Google Fonts-->
     <link href="https://fonts.googleapis.com/css?family=Permanent+Marker|Chewy|Delius+Swash+Caps" rel="stylesheet">
     <!--Our Style-->
     <link href="indexstylesheet.css" type="text/css" rel="stylesheet">
 </head>
 
-<body class="text-center">
+<body class="text-center backgroundStyle">
     <!--navBar-->
-    <div class="ourContainer">
-        <nav class="nav navbar-default" role="navigation">
-            <ul class="navBar_main">
-                <li>Recommend a Spot</li>
-                <li>Blog</li>
-                <li>Events</li>
-                <li>Other Locations</li>
+
+    <nav class="navbar navbar-expand-sm navbar-light nav-Bg">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+   <div class="leafy_menu_btn">
+       <i class="fas fa-leaf fa-2x"></i>
+   </div> 
+   navigation
+  </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto nav_Fnt">
+                <li class="nav-item"><a class="nav-link" href="#">Recommend a Spot</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Blog</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Events</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Other Locations</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">About</a></li>
             </ul>
-            <ul class="about_social">
-                <li>About</li>
-            </ul>
-        </nav>
-        <!--mainPage-->
-        <div class="container-fluid backgroundStyle">
+        </div>
+    </nav>
+
+    <!--mainPage-->
+    <div class="container-fluid ">
         <div class="container d-flex pt-lg-5 pt-md-0 mx-auto flex-column ">
             <header>
                 <div class="container">
@@ -37,7 +44,7 @@
                         <h1 class="title col-md-12 text-center font-weight-normal">Cra<span class="ve font-weight-bold">Ve</span></h1>
                     </div>
                     <div class="row">
-                        <h3 class="location col-md-12 text-center">-london-</h3>
+                        <h3 class="location col-md-12 text-center font-weight-bold">-london-</h3>
                     </div>
                     <div class="row">
                         <p class="description col-md-12 text-center">"Stop the <span class="hangryRed">Hanger</span> and <span class="treat font-weight-bold">Treat Yourself!</span>"</p>
@@ -46,7 +53,7 @@
             </header>
             <main class="container">
                 <div class="row">
-                    <p class="lead px-lg-5 px-md-0"> Sate your cravings and your conscience with our tasty <span class="ve">vegan</span> versions of the non-vegan food you love, right here in London.</p>
+                    <p class="lead text-center"> Sate your cravings and your conscience with our tasty <span class="ve">vegan</span> versions of the non-vegan food you love, right here in London.</p>
                 </div>
             </main>
             <!--Choices-->
@@ -59,16 +66,16 @@
                 <a href="#" class="btn btn-primary my-2">Surprise Me!</a>
             </div>
         </div>
-        </div>
-        <!--
-        <div class="text-center">
-            <footer>
-                <p>Made with __ by Hannah + Michelle // Powered by CodeFirst:Girls_Paddington</p>
-            </footer>
-        </div>
--->
     </div>
-
+    <div class="text-center">
+        <footer>
+            <p>Made with __ by Hannah + Michelle // Powered by CodeFirst:Girls_Paddington</p>
+        </footer>
+    </div>
+    <!--    Bootstrap JavaScript CDNs-->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 </body>
 
 </html>
