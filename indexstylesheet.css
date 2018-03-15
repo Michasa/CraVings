@@ -6,21 +6,28 @@ body {
     height: 100%;
     margin: 0;
     padding: 0;
-
+    font-size: 16px;
 }
 
 .ourContainer {
     height: 100vh;
 }
 
+@media only screen and (max-width: 544px){
+    html,
+    body {
+        color: red;
+        font-size: 12px;
+    }
+}
+
 @media only screen and (min-width: 992px) {
-    p.lead {
+        p.lead {
         display: block;
         width: 690px;
         height: 129px;
         margin: auto;
         padding: 0;
-        !ant
     }
 }
 
@@ -92,8 +99,8 @@ nav div.leafy_menu_btn {
 nav.nav-Bg {
     /*    background-color: linear-gradient(to right,#392033,white);*/
     background-image: linear-gradient(to right, rgba(115, 170, 204, 0.37), rgba(150, 162, 203, 0.37), rgb(177, 155, 189, 0.2));
-    padding: 0, 
-/*        TODO use cloud texture http://www.wallcoo.net/cartoon/Scrapbook_Art_Paper_Summer_Fun/images/kcroninbarrow-summerfun-cloudpaper.jpg*/
+    padding: 0,
+    /*        TODO use cloud texture http://www.wallcoo.net/cartoon/Scrapbook_Art_Paper_Summer_Fun/images/kcroninbarrow-summerfun-cloudpaper.jpg*/
     font-size: 1.3rem;
     box-shadow: 0.5px 2px #f8f0ed;
 }
@@ -153,17 +160,13 @@ span.treat {
     text-shadow: 1px 3px #6156e5;
 }
 
-.description {
+p.description {
     font-size: 1.75rem;
     text-align: center;
     align-self: center;
+    padding-bottom: 0;
 }
 
 /*>>choices<<*/
 
 /*FOOTER*/
-
-footer {
-    background-image: linear-gradient(to right top, #78a120, #89ac27, #9ab72e, #acc335, #bece3c);
-
-}
