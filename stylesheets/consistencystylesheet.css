@@ -1,0 +1,46 @@
+/*Note: Use this stylesheet for website consistency, place above the page specific stylesheet */
+
+/*Global Effects and Media Queries*/
+
+html,
+body {
+    font-size: 16px;
+    /*make all font sizes REM so font size can be responsive to viewport*/
+}
+
+@media only screen and (max-width: 544px) {
+    html,
+    body {
+        font-size: 12px;
+    }
+}
+
+/*Navigation Bar*/
+
+.vegan_ve {
+    color: #9acd32;
+    font-family: 'Delius Swash Caps', cursive;!important
+}
+
+nav.nav-Bg {
+    padding: 2px 2px;
+    font-family: 'Roboto Slab', serif;
+    font-size: 1.3rem;
+    box-shadow: 0.5px 2px #f8f0ed;
+}
+
+nav a.disabled::after {
+    content: " coming soon ♥";
+    font-size: 0.5rem;
+    color: #d43d3d;
+}
+
+/*Footer*/
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    font-size: 1rem;
+    background-color: rgba(140, 187, 46, 0.84);
+    border-top: solid 1px white;
+}

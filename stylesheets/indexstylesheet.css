@@ -4,7 +4,6 @@ html,
 body {
     width: 100%;
     min-height: 100%;
-    font-size: 16px;
 }
 
 /*
@@ -18,11 +17,6 @@ p.nopadding_bt {
 }
 
 @media only screen and (max-width: 544px) {
-    /*Responsive font sizes for smaller screens*/
-    html,
-    body {
-        font-size: 12px;
-    }
     /*makes buttons block elements for smaller screens*/
     .ourButton {
         width: 80%;
@@ -40,6 +34,13 @@ p.nopadding_bt {
         width: 690px;
         margin: auto;
         padding: 2;
+        font-size: 1.55em;
+        font-weight: 300;
+        text-align: center;
+        line-height: 1cm;
+        text-transform: lowercase;
+        font-family: 'Delius Swash Caps', cursive;
+        text-shadow: 1px 1px #6a669a;
     }
 }
 
@@ -102,28 +103,7 @@ p.nopadding_bt {
     }
 }
 
-/*NAV BAR*/
-
-span.leafy_menu_btn {
-    color: #82ac2d;
-}
-}
-span.vegan_ve {
-    color: #9acd32;
-    font-family: 'Delius Swash Caps', cursive;
-    text-shadow: 1px 2px #463da8;
-}
-
-nav.nav-Bg {
-    background-image: linear-gradient(to right, rgba(115, 170, 204, 0.37), rgba(150, 162, 203, 0.37), rgb(177, 155, 189, 0.2));
-    padding: 2px;
-    font-family: 'Roboto Slab', serif;
-    font-size: 1.3rem;
-    box-shadow: 0.5px 2px #f8f0ed;
-}
-
 /*MAIN CONTENT*/
-
 /*>>title<<*/
 
 h1.title {
@@ -156,17 +136,6 @@ p.description {
     font-size: 1.75rem;
 }
 
-
-p.lead {
-    font-size: 1.55em;
-    font-weight: 300;
-    text-align: center;
-    line-height: 1cm;
-    text-transform: lowercase;
-    font-family: 'Delius Swash Caps', cursive;
-    text-shadow: 1px 1px #6a669a;
-}
-
 span.hangryRed {
     font-family: 'Permanent Marker';
     color: #fe956e;
@@ -183,14 +152,13 @@ span.treat {
     text-shadow: 1px 3px #6156e5;
 }
 
-
-
 /*>>choices<<*/
 
 .ourButton {
     font-family: 'Roboto Slab', serif;
     background-color: #eeeff0;
     padding: 10px;
+    display: inline-block;
     margin: 5px;
     position: relative;
     font-size: 1.75rem;
@@ -201,7 +169,6 @@ span.treat {
     border-bottom: solid 1.5px rgba(165, 159, 229, 0.51);
     box-shadow: inset 0px 1px 0px #C8C6E0, 0px 7px 0px rgba(70, 74, 76, 0.46);
     border-radius: 10px;
-
 }
 
 .ourButton:hover {
@@ -213,20 +180,7 @@ span.treat {
     box-shadow: 0px 3px 0px rgba(99, 96, 137, 0.68);
     background-color: #cecdde;
 }
-
-
-/*FOOTER*/
-
-.footer {
-    position: absolute;
-    bottom: 0;
-    height: auto;
-    width: 100%;
-    font-size: 1rem;
-    background-color: rgba(140, 187, 46, 0.84);
-    border-top: solid 1px white;
-}
-
+/*>>floating cloud<<*/
 #cloud {
     width: 683px;
     height: 364px;
@@ -253,8 +207,4 @@ span.treat {
     }
 }
 
-.testing {
-    z-index: 1;
-    position: absolute;
 
-}

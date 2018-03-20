@@ -9,40 +9,37 @@
     <link href="https://fonts.googleapis.com/css?family=Permanent+Marker|Roboto+Slab|Delius+Swash+Caps" rel="stylesheet">
     <!--Font Awesome Icons-->
     <link href="https://use.fontawesome.com/releases/v5.0.8/css/all.css" rel="stylesheet">
-    <!--Our Style-->
+    <!--Our Stylesheets-->
+    <link href="consistencystylesheet.css" rel="stylesheet" type="text/css">
     <link href="indexstylesheet.css" type="text/css" rel="stylesheet">
 </head>
 
 <body class="text-center backgroundStyle">
     <!--navBar-->
-
-    <nav class="navbar navbar-expand-sm navbar-light nav-Bg">
+    <nav class="navbar navbar-expand-sm navbar-light nav-Bg display">
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="leafy_menu_btn"><i class="fas fa-leaf fa-3x"></i></span>
+    <span><i class="fas fa-leaf fa-3x" style="color: #82ac2d;"></i></span>
   </button>
         <div class="collapse navbar-collapse" id="navbarNavDropdown">
             <ul class="navbar-nav">
+                <li class="nav-item active"><a class="nav-link"><i class="fas fa-home"></i></a></li>
                 <li class="nav-item text-nowrap"><a class="nav-link" href="#">Recommend a Spot</a></li>
                 <li class="nav-item"><a class="nav-link" href="#">Blog</a></li>
-                <li class="nav-item"><a class="nav-link" href="#">Events</a></li>
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle text-nowrap" href="#" id="navbardrop" data-toggle="dropdown">
-        Cra<span class="vegan_ve">Ve</span> World
-      </a>
+        Cra<span class="vegan_ve font-weight-bold">Ve</span> Everywhere <i class="far fa-compass"></i></a>
                     <div class="dropdown-menu">
-                        <a class="dropdown-item" href="#">CraVe NYC</a>
-                        <a class="dropdown-item" href="#">CraVe TKY</a>
+                        <a class="dropdown-item font-weight-bold">CraVe LDN</a>
+                        <a class="dropdown-item disabled">CraVe NYC</a>
+                        <a class="dropdown-item disabled">CraVe TKY</a>
                     </div>
                 </li>
-<!--
-                <div>
-                    <li class="nav-item"><a class="nav-link" href="About.html">About</a>
-                        <li class="nav-item">We're very social:</li>
-                        <li class="nav-item"><i class="fab fa-instagram"></i></li>
-                        <li class="nav-item"><i class="fab fa-twitter"></i></li>
-                        <li class="nav-item"><i class="fab fa-facebook"></i></li>
-                </div>
--->
+                <li class="nav-item"><a class="nav-link" href="About.html">About</a></li>
+                <li class="nav-item text-nowrap vegan_ve font-weight-bold"><a class="nav-link">We're very social</a></li>
+
+                <li class="nav-item"><a class="nav-link"><i class="fab fa-instagram"></i></a></li>
+                <li class="nav-item"><a class="nav-link"><i class="fab fa-twitter"></i></a></li>
+                <li class="nav-item"><a class="nav-link"><i class="fab fa-facebook"></i></a></li>
             </ul>
         </div>
     </nav>
@@ -66,7 +63,7 @@
             </header>
             <main class="container pb-sm-0">
                 <div class="row">
-                    <p class="lead text-center nopadding_bt"> Sate your cravings and your conscience with our tasty <span class="vegan_ve">vegan</span> versions of the non-vegan food you love, right here in London.</p>
+                    <p class="lead text-center nopadding_bt"> Sate your cravings and your conscience with our tasty <span class="vegan_ve font-weight-bold">vegan</span> versions of the non-vegan food you love, right here in London.</p>
                 </div>
             </main>
             <!--Choices-->
