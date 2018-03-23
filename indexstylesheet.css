@@ -16,37 +16,23 @@ p.nopadding_bt {
     margin-bottom: 2px;
 }
 
-@media only screen and (max-width: 544px) {
+@media only screen and (max-width: 767px) {
     /*makes buttons block elements for smaller screens*/
     .ourButton {
         width: 80%;
         display: inline-block;
     }
-
-    #cloud {
-        visibility: hidden;
-    }
 }
-
 @media only screen and (min-width: 992px) {
     p.lead {
-        display: block;
-        width: 690px;
-        margin: auto;
-        padding: 2;
-        font-size: 1.55em;
-        font-weight: 300;
-        text-align: center;
-        line-height: 1cm;
-        text-transform: lowercase;
-        font-family: 'Delius Swash Caps', cursive;
-        text-shadow: 1px 1px #6a669a;
-    }
+        line-height: 0.1cm;
+        }
 }
 
 /*background*/
 
 /*MAIN CONTENT*/
+
 /*>>title<<*/
 
 h1.title {
@@ -95,6 +81,20 @@ span.treat {
     text-shadow: 1px 3px #6156e5;
 }
 
+p.lead {
+    display: block;
+    width: 690px;
+    margin: auto;
+    padding: 2;
+    font-size: 1.55em;
+    font-weight: 300;
+    text-align: center;
+    line-height: 1cm;
+    text-transform: lowercase;
+    font-family: 'Delius Swash Caps', cursive;
+    text-shadow: 1px 1px #6a669a;
+}
+
 /*>>choices<<*/
 
 .ourButton {
@@ -112,6 +112,7 @@ span.treat {
     border-bottom: solid 1.5px rgba(165, 159, 229, 0.51);
     box-shadow: inset 0px 1px 0px #C8C6E0, 0px 7px 0px rgba(70, 74, 76, 0.46);
     border-radius: 10px;
+    flex: 0 0 100%
 }
 
 .ourButton:hover {
@@ -123,14 +124,13 @@ span.treat {
     box-shadow: 0px 3px 0px rgba(99, 96, 137, 0.68);
     background-color: #cecdde;
 }
+
 /*>>floating cloud<<*/
+
 #cloud {
     width: 683px;
     height: 364px;
-    position: fixed;
     z-index: -1;
-    bottom: 8%;
-    left: 26%;
     filter: drop-shadow( 2px 2px 2px rgba(8, 8, 8, 0.48));
     animation-name: floating;
     animation-timing-function: ease-in-out;
@@ -150,4 +150,32 @@ span.treat {
     }
 }
 
+.parent {
+    width: 100%;
+    display: flex;
+    /* required */
+    flex-flow: row nowrap;
+    /* required */
+    bottom: 90px;
+    position: relative;
+    top: -100px;
+}
 
+.child {
+    z-index: -1;
+    position: absolute;
+    width: 100%;
+    /* required */
+    flex: none;
+    /* required */
+}
+
+.descri {}
+
+.cloudFloat {
+    filter: drop-shadow( 2px 2px 2px rgba(8, 8, 8, 0.48));
+    animation-name: floating;
+    animation-timing-function: ease-in-out;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}

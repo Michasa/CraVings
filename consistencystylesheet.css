@@ -16,6 +16,9 @@ body {
 }
 
 /*Navigation Bar*/
+button {
+    margin: 0 auto;
+}
 
 .vegan_ve {
     color: #9acd32;
@@ -33,6 +36,9 @@ nav a.disabled::after {
     content: " coming soon ♥";
     font-size: 0.5rem;
     color: #d43d3d;
+    position: relative;
+    top:-7px;
+    padding-right:0;
 }
 /*Mainpage*/
 body.gradient_bluepink_bkgrnd {
@@ -100,3 +106,5 @@ body.gradient_bluepink_bkgrnd {
     background-color: rgba(140, 187, 46, 0.84);
     border-top: solid 1px white;
 }
+
+
