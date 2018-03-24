@@ -170,9 +170,8 @@ p.lead {
     /* required */
 }
 
-.descri {}
-
 .cloudFloat {
+    color: white;
     filter: drop-shadow( 2px 2px 2px rgba(8, 8, 8, 0.48));
     animation-name: floating;
     animation-timing-function: ease-in-out;

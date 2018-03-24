@@ -13,20 +13,31 @@ body {
     body {
         font-size: 12px;
     }
+
+    div.social li {
+    display: inline-block;
+    padding: 0 0.5rem;
+}
+
 }
 
 /*Navigation Bar*/
+
 button {
     margin: 0 auto;
 }
 
+div.social li {
+    display: inline-block;
+}
+
 .vegan_ve {
     color: #9acd32;
-    font-family: 'Delius Swash Caps', cursive;!important
+    font-family: 'Delius Swash Caps', cursive;
 }
 
 nav.nav-Bg {
-    padding: 2px 2px;
+    padding: 0 0;
     font-family: 'Roboto Slab', serif;
     font-size: 1.3rem;
     box-shadow: 0.5px 2px #f8f0ed;
@@ -37,10 +48,17 @@ nav a.disabled::after {
     font-size: 0.5rem;
     color: #d43d3d;
     position: relative;
-    top:-7px;
-    padding-right:0;
+    top: -7px;
+    padding-right: 0;
+}
+
+.whiteIcon {
+    color: white;
+    text-shadow: 1px 2px #3c3c3c;
+    font-size: 2rem;
 }
 /*Mainpage*/
+
 body.gradient_bluepink_bkgrnd {
     background: linear-gradient(147deg, #77a7c5, #a7c6db, #c0d1db, #fe956e);
     background-size: 800% 800%;
@@ -97,7 +115,9 @@ body.gradient_bluepink_bkgrnd {
         background-position: 0% 48%
     }
 }
+
 /*Footer*/
+
 .footer {
     position: absolute;
     bottom: 0;
@@ -106,5 +126,3 @@ body.gradient_bluepink_bkgrnd {
     background-color: rgba(140, 187, 46, 0.84);
     border-top: solid 1px white;
 }
-
-
