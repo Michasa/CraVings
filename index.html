@@ -16,12 +16,13 @@
 
 <body class="text-center gradient_bluepink_bkgrnd">
     <!--navBar button-->
-    <nav class="navbar navbar-expand-sm navbar-light nav-Bg display">
+    <nav class="navbar navbar-expand-sm navbar-light navStyling display">
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
     <span><i class="fas fa-cloud fa-4x cloudFloat"></i></span>
   </button>
         <!--navbar Menu-->
         <div class="collapse navbar-collapse d-inline-flexflex-sm-column flex-wrap" id="navbarNavDropdown">
+        <div class="collapse navbar-collapse d-inline-flexflex-sm-column flex" id="navbarNavDropdown">
             <!--this is the container of the menu and flex parent of the two uls-->
             <ul class="navbar-nav">
                 <li class="nav-item active"><a class="nav-link"><i class="fas fa-home fa-1x"></i></a></li>
@@ -37,8 +38,8 @@
                     </div>
                 </li>
             </ul>
-            <ul class="navbar-nav ml-auto p-2 d-inline-flex">
-                <li class="vegan_ve font-weight-bold d-none d-sm-block" title="Well sometimes ;)"><a class="nav-link">We're very social</a></li>
+            <ul class="navbar-nav ml-auto p-0 d-inline-flex">
+
                 <div class="social">
                     <li><a class="nav-link"><i class="fab fa-instagram whiteIcon"></i></a></li>
                     <li><a class="nav-link"><i class="fab fa-twitter whiteIcon"></i></a></li>
@@ -48,51 +49,56 @@
             </ul>
         </div>
     </nav>
-
     <!--mainPage-->
-    <div class="container-fluid ">
-        <div class="container d-flex pt-lg-4 pt-md-3 mx-auto flex-column ">
-            <header>
-                <div class="container text-center">
-                    <div class="row">
-                        <h1 class="title col-md-12 text-center font-weight-normal">Cra<span class="title_ve font-weight-bold">Ve</span></h1>
-                    </div>
-                    <div class="row">
-                        <h3 class="location col-md-12 text-center font-weight-bold">-london-</h3>
-                    </div>
-                    <div class="row">
-                        <p class="description
+    <div class="container-fluid" id="parentcontainer">
+        <div class="row no-gutters">
+            <div class="col-12 container-fluid">
+                <div class=" d-flex pt-lg-4 pt-md-3 mx-auto flex-column">
+                    <header>
+                        <div class="container text-center">
+                            <div class="row">
+                                <h1 class="title col-md-12 text-center font-weight-normal">Cra<span class="title_ve font-weight-bold">Ve</span></h1>
+                            </div>
+                            <div class="row">
+                                <h3 class="location col-md-12 text-center font-weight-bold">-london-</h3>
+                            </div>
+                            <div class="row">
+                                <p class="description
                     col-md-12 nopadding_bt ">Stop the <span class="hangryRed">Hanger</span> and <span class="treat font-weight-bold">Treat Yourself!</span></p>
+                            </div>
+                        </div>
+                    </header>
+                    <main class="container pb-sm-0">
+                        <div class="row">
+                            <p class="lead text-center nopadding_bt"> Sate your cravings and your conscience with our tasty <span class="vegan_ve font-weight-bold">vegan</span> versions of the non-vegan food you love, right here in London.</p>
+                        </div>
+                    </main>
+                    <!--Choices-->
+                    <div class="container parent">
+                        <div class="child">
+                            <img src="img/cloud.svg" id="cloud" class="d-none d-md-inline-block" alt="a very cloudy cloud">
+                        </div>
                     </div>
-                </div>
-            </header>
-            <main class="container pb-sm-0">
-                <div class="row">
-                    <p class="lead text-center nopadding_bt"> Sate your cravings and your conscience with our tasty <span class="vegan_ve font-weight-bold">vegan</span> versions of the non-vegan food you love, right here in London.</p>
-                </div>
-            </main>
-            <!--Choices-->
-            <div class="container parent">
-                <div class="child img-responsive">
-                    <img src="img/cloud.svg" id="cloud" class="d-none d-md-inline-block" alt="a very cloudy cloud">
-                </div>
-            </div>
-            <div class="container pt-lg-5 pt-md-5 flex-column">
-                <div>
-                    <a href="#" class="btn my-2 ourButton ">Sweet Treats</a>
-                    <a href="#" class="btn my-2 ourButton ">Fast Food</a>
-                    <a href="#" class="btn my-2 ourButton ">World Food</a>
-                </div>
-                <div>
-                    <a href="#" class="btn my-2 ourButton ">Surprise Me!</a>
+                    <div class="container pt-lg-5 pt-md-5 flex-column">
+                        <div>
+                            <a href="#" class="btn my-2 ourButton ">Sweet Treats</a>
+                            <a href="#" class="btn my-2 ourButton ">Fast Food</a>
+                            <a href="#" class="btn my-2 ourButton ">World Food</a>
+                        </div>
+                        <div>
+                            <a href="#" class="btn my-2 ourButton ">Surprise Me!</a>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
-
-    <footer>
-        <div class="container pt-lg-3 pt-sm-0 flex-column">
-           Made with <i class="far fa-heart"></i> by Hannah + Michelle // Powered by CodeFirst:Girls_Paddington
+    <!--footer-->
+    <footer class="footer">
+        <div class="container-fluid">
+            <div class="row text-center">
+                Made with <i class="far fa-heart"></i> by Hannah + Michelle // Powered by CodeFirst:Girls_Paddington
+            </div>
         </div>
     </footer>
 
