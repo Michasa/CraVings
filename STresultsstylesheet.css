@@ -28,6 +28,24 @@ animation: AnimationName 20s ease infinite;
     background-color: pink;
 }
 
+/*
+#results {
+    background-color: aquamarine;
+}
+*/
+
+/*Results*/
 div.shadow {
     box-shadow: 0px 4px 3px #81818261;
+}
+
+h1.title {
+    font-family: 'Pacifico';
+    font-size: 3.6rem;
+    text-shadow: 2px 3px rgba(242, 161, 161, 0.67);
+}
+
+
+div.containerPink {
+    border-top: 2.5px solid rgba( 235, 94, 85, 0.6 ) !important;
 }
