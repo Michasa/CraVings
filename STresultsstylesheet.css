@@ -52,7 +52,7 @@ h6.card-subtitle {
 
 p.card-text {
     line-height: 1.2 !important;
-    font-size: 1rem;
+    font-size: 0.9rem;
     font-family: 'Georgia', serif;
 }
 
@@ -91,5 +91,11 @@ div.RecommendStyle {
 
 
 
+
+
+
+img #duck {
+    width: 100%;
+}
 
 
