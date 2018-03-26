@@ -19,8 +19,18 @@ body {
 }
 
 /*Navigation Bar*/
+nav {
+    background-color: rgba(124, 122, 150, 0.47);
+}
 
-/*overrides bootstrap theme*/
+.cloudFloat {
+    color: white;
+    filter: drop-shadow( 2px 2px 2px rgba(8, 8, 8, 0.48));
+    animation-name: floating;
+    animation-timing-function: ease-in-out;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
 
 button {
     margin: 0 auto;
