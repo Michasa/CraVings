@@ -1,7 +1,6 @@
 /*Note: Use this stylesheet for website consistency, place above the page specific stylesheet */
-
+/*ALL PAGES*/
 /*Global Effects and Media Queries*/
-
 html,
 body {
     font-size: 16px;
@@ -87,4 +86,84 @@ footer .container-fluid {
     padding-top: 2px;
     padding-left: 5px;
     padding-right: 5px;
+}
+
+/*RESULTS PAGES ONLY*/
+/*SIDEBAR */
+h4.sidebarHeader {
+    font-family: 'Delius Swash Caps', cursive;
+}
+
+h5.card-title {
+    font-family: 'Playfair Display', serif;
+    font-weight: 900;
+}
+
+h6.card-subtitle {
+    font-family: 'Delius Swash Caps', cursive;
+    font-size: 1rem;
+}
+
+p.card-text {
+    line-height: 1.2 !important;
+    font-size: 0.9rem;
+    font-family: 'Georgia', serif;
+}
+
+p.minitext {
+    font-size: 0.7rem;
+    text-align: right;
+    font-style: italic;
+}
+
+/*Recommendation of the Week*/
+div.RecommendStyle {
+    background-color: rgba(242, 161, 161, 0.80);
+
+}
+
+div.NewsletterStyle {
+    background-color: rgba(174, 140, 166, 0.80);
+}
+
+#sidebar a {
+    color: white;
+}
+
+#sidebar a:hover {
+    color: #2d2d3b;
+    font-style: italic bold;
+    text-decoration: none;
+}
+
+/*Newsletter*/
+form > div > label {
+    font-family: 'Roboto Slab', serif;
+    font-weight: 700;
+    margin-bottom: 0;
+}
+
+.ourButton2 {
+    font-family: 'Roboto Slab', serif;
+    background-color: #eeeff0;
+    padding: 10px;
+    display: inline-block;
+    margin: 5px;
+    position: relative;
+    font-size: 1rem;
+    color: #000000;
+    border-radius: 5px;
+    border-bottom: solid 1.5px rgba(165, 159, 229, 0.51);
+    box-shadow: inset 0px 1px 0px #C8C6E0, 0px 7px 0px rgba(70, 74, 76, 0.46);
+    border-radius: 10px;
+    flex: 0 0 100%
+}
+
+.ourButton2:hover {
+    box-shadow: 0px 3px 10px #8883BC;
+    color: #46445f;
+    text-shadow: 1px 2px #f1f1f4;
+    border-bottom: solid 0.5px #636089;
+    box-shadow: 0px 3px 0px rgba(99, 96, 137, 0.68);
+    background-color: #cecdde;
 }
