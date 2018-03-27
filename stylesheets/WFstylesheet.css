@@ -1,6 +1,6 @@
 body {
-    background: linear-gradient(148deg, #83dcf7, #f2a1a1, #f8d7aa);
-    background-size: 600% 600%;
+    background: linear-gradient(148deg, #83dcf7, #97AA1B, #F9BA45, #f8d7aa);
+    background-size: 800% 800%;
     -webkit-animation: AnimationName 20s ease infinite;
     -moz-animation: AnimationName 20s ease infinite;
     animation: AnimationName 20s ease infinite;
@@ -42,9 +42,9 @@ body {
     }
 }
 
-.active {
-    background-color: #C8C6E0 !important;
-}
+
+
+
 /*RESULTS*/
 
 div.shadow {
@@ -52,9 +52,9 @@ div.shadow {
 }
 
 h1.title {
-    font-family: 'Pacifico';
+    font-family: 'Kumar One', cursive;
     font-size: 3.6rem;
-    text-shadow: 2px 3px rgba(242, 161, 161, 0.67);
+    text-shadow: 3px 2px rgba(204, 91, 6,0.80);
 }
 
 h4.description {

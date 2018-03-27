@@ -1,4 +1,3 @@
-/*Note: Use this stylesheet for website consistency, place above the page specific stylesheet */
 /*ALL PAGES*/
 /*Global Effects and Media Queries*/
 html,
@@ -67,6 +66,10 @@ div.socialbtns a.nav-link > i {
 
 div.socialbtns a.nav-link > i:hover {
     color: #78778A !important;
+}
+
+a.active {
+    background-color: #C8C6E0 !important;
 }
 
 /*Footer*/

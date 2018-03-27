@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <meta charset="utf-8">
+    <!--Bootstrap_4-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <!--Google Fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Slab|Delius+Swash+Caps|Kumar+One|Raleway" rel="stylesheet">
+    <script src="//use.edgefonts.net/damion.js"></script>
+    <!--Font Awesome Icons-->
+    <link href="https://use.fontawesome.com/releases/v5.0.8/css/all.css" rel="stylesheet">
+    <!--Our Stylesheets-->
+    <link href="./stylesheets/consistencystylesheet.css" rel="stylesheet" type="text/css">
+    <link href="./stylesheets/WFstylesheet.css" rel="stylesheet" type="text/css">
+</head>
+
+<body class="gradient_bluepink_bkgrnd">
+    <!--navBar button-->
+    <nav class="text-center navbar navbar-expand-md navbar-light navStyling display">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation"><span><i class="fas fa-cloud fa-4x cloudFloat"></i></span>
+  </button>
+        <!--navbar Menu-->
+        <div class="collapse navbar-collapse d-inline-flexflex-sm-column flex-wrap" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+                <li class="nav-item"><a class="nav-link" href="index.html"><i class="fas fa-home fa-1x"></i></a></li>
+                <li class="nav-item text-nowrap"><a class="nav-link" href="#">Suggest a Spot  <i class="fas fa-map-marker-alt" ></i></a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Blog  <i class="far fa-comment-alt"></i></a></li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="menu" data-toggle="dropdown">Menu <i class="fas fa-utensils"></i></a>
+                    <div class="dropdown-menu">
+                        <a class="dropdown-item nav-link" href="SweetTreats.html">Sweet Treats</a>
+                        <a class="dropdown-item nav-link" href="FastFood.html">Fast Food</a>
+                        <a class="dropdown-item nav-link active">World Food</a>
+                    </div>
+                </li>
+            </ul>
+            <ul class="navbar-nav ml-auto p-0 d-inline-flex">
+                <div class="socialbtns">
+                    <li><a class="nav-link " href="https://www.instagram.com/codefirstgirls/?hl=en" target="_blank"><i class="fab fa-instagram"></i></a></li>
+                    <li><a class="nav-link" href="https://www.facebook.com/codefirstgirls/" target="_blank"><i class="fab fa-twitter"></i></a></li>
+                    <li><a class="nav-link" href="https://twitter.com/CodeFirstGirls" target="_blank"><i class="fab fa-facebook"></i></a></li>
+                </div>
+                <li class="nav-item"><a class="nav-link" href="About.html">About <i class="fas fa-heart" style="color:#EB5E55"></i></a></li>
+            </ul>
+        </div>
+    </nav>
+    <!--main-->
+    <div class="container-fluid">
+        <div class="row pt-3">
+            <div class="col-lg-9 col-md-12" id="mainpage">
+                <div class="container bg-light border rounded shadow my-2 text-center">
+                    <h1 class="title pt-5">World Food</h1>
+                    <h4 class="description"> The vegan diet can be traced all the way back to 600BCE India, but today it has been enthuastically adopted by cultural cusines all over the world.</h4>
+                    <p class="changme">Click below to see all the cake, ice-cream, and pasteries London has to offer</p>
+                </div>
+                <div class="container bg-light border rounded shadow my-2">
+                    <div style="display:inline-block; overflow:hidden;">
+                        <iframe class="custom-google-map" style="position:relative; top:-50px; border:none;" src="https://www.google.com/maps/d/embed?mid=1GQJrUt8mkC4FveK_bouP3_GyNxTMZpvN"></iframe>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-12 " id="sidebar">
+                    <div class="container my-2 rounded border RecommendStyle" id="recommended">
+                        <h4 class="text-center pt-2 font-weight-bold sidebarHeader mb-1">Star Eat of the Week <i class="far fa-star fa-xs fa-spin"></i></h4>
+                        <h6 class="card-subtitle text-center mb-1">As chosen by Hannah</h6>
+                        <div class="row no-gutters align-items-center">
+                            <div class="col-lg-12 col-sm-6 col-6">
+                                <div id="StarEatSlideshow" class="carousel slide" data-ride="carousel" data-intereval="3000">
+                                    <div class="carousel-inner">
+                                        <div class="carousel-item  active">
+                                            <img class="d-block w-100  p-2 img-fluid" src="img/fbw1.jpg" alt="fed by water front">
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img class="d-block w-100 p-2 img-fluid" src="img/fbw3.jpg" alt="fed by water inside">
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img class="d-block w-100 p-2 img-fluid" src="img/fbw2.jpg" alt="fed by water food">
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img class="d-block w-100 p-2 img-fluid" src="img/fbw4.jpg" alt="fed by water food">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-12 col-sm-6 col-6 rounded">
+                                <h5 class="card-title mb-1"><a href="http://fedbywater.co.uk/" target="_blank">FED by Water</a></h5>
+                                <p class="mb-0"><i class="fas fa-map-marker-alt"></i> Dalston, East London</p>
+                                <p class="text-justify card-text mb-2 changeme">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit alias iusto dignissimos recusandae neque veritatis eos, expedita obcaecati commodi, veniam, illum iste quae totam, nihil dolores minima rem nostrum nobis.</p>
+                                <p class="minitext mb-1">Images above from <a href="https://www.deliciousdougie.com/single-post/2018/02/10/Fed-By-Water" target="_blank">DeliciousDougie</a></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="container my-2 rounded border NewsletterStyle" id="newsletter">
+                        <h4 class="text-center pt-2 font-weight-bold sidebarHeader mb-1">Fear of Missing Out?<i class="far fa-paper-plane"></i></h4>
+                        <h6 class="card-subtitle text-center mb-1">Sign up to our newsletter!</h6>
+                        <div class="row align-items-center no-gutters">
+                            <div class="col-lg-12 col-sm-6 col-6 fill">
+                                <img class="d-block w-70 p-2 img-fluid" src="img/newsletter.gif" alt="hangry pandy boi" style="">
+                            </div>
+                            <div class="col-lg-12 col-sm-6 col-6">
+                                <form action="" method="">
+                                    <div>
+                                        <label for="question"> My email address is</label>
+                                        <input type="email" id="email" placeholder="fedmeplz@ritenow.co.uk" style="width:100%" required>
+                                    </div>
+                                    <div>
+                                        <label for="question" class="d-block"> I'm interested in</label>
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="checkbox" id="sweetreats" value="sweettreatsyes" name="sendme">
+                                            <label class="form-check-label" for="sweetreats">Sweet Treats</label>
+                                        </div>
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="checkbox" id="fastfood" value="fastfoodyes" name="sendme">
+                                            <label class="form-check-label" for="fastfood">Fast Food</label>
+                                        </div>
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="checkbox" id="worldfood" value="worldfoodyes" name="sendme">
+                                            <label class="form-check-label" for="worldfood">World Food</label>
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <label for="question" class="d-block">Send an email every</label>
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="radio" id="regularity" value="week" name="time">
+                                            <label class="form-check-label" for="regularity">
+                                        Week
+                                      </label>
+                                        </div>
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="radio" id="regularity" value="2week" name="time">
+                                            <label class="form-check-label" for="regularity">
+                                        Fortnight
+                                      </label>
+                                        </div>
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="radio" id="regularity" value="month" name="time">
+                                            <label class="form-check-label" for="regularity">
+                                        Month
+                                      </label>
+                                        </div>
+                                    </div>
+                                    <button type="submit" class="btn my-2 ourButton2"> Submit!</button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer class="text-center">
+            <div class="container-fluid"> <span class="footerStyle font-weight-bold">Made with <i class="fas fa-leaf fa-lg" style="color:#668427"></i>  by Hannah + Michelle // Made possible with <a class="img-responsive" href="https://www.codefirstgirls.org.uk/free-community-courses.html" target="_blank"><img src="img/cfg_logo.png" alt="CodeFirst:Girls" id="cfg_logo"></a></span>
+            </div>
+        </footer>
+        <!--    Bootstrap JavaScript CDNs-->
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+
+</html>
