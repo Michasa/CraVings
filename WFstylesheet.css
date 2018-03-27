@@ -1,6 +1,6 @@
 body {
-    background: linear-gradient(148deg, #83dcf7, #07345B, #E03F3B, #F0A02D, #f8d7aa);
-    background-size: 600% 600%;
+    background: linear-gradient(148deg, #83dcf7, #a0af3c, #f9ba45, #f8d7aa);
+    background-size: 800% 800%;
     -webkit-animation: AnimationName 20s ease infinite;
     -moz-animation: AnimationName 20s ease infinite;
     animation: AnimationName 20s ease infinite;
@@ -42,6 +42,9 @@ body {
     }
 }
 
+
+
+
 /*RESULTS*/
 
 div.shadow {
@@ -49,9 +52,9 @@ div.shadow {
 }
 
 h1.title {
-    font-family: 'Racing Sans One', cursive;
-    font-size: 4.5rem;
-    text-shadow: 2px 3px rgba(7, 52, 91,0.80);
+    font-family: 'Kumar One', cursive;
+    font-size: 3.6rem;
+    text-shadow: 3px 2px #FB8000;
 }
 
 h4.description {
