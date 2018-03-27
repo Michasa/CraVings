@@ -166,11 +166,9 @@ p.lead {
     display: inline-block;
     margin: 5px;
     position: relative;
-    font-size: 1.75rem;
     text-decoration: none;
     color: #000000;
     font-size: 1.5rem;
-    border-radius: 5px;
     border-bottom: solid 1.5px rgba(165, 159, 229, 0.51);
     box-shadow: inset 0px 1px 0px #C8C6E0, 0px 7px 0px rgba(70, 74, 76, 0.46);
     border-radius: 10px;
