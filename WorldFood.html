@@ -58,7 +58,7 @@
                 </div>
                 <div class="container bg-light border rounded shadow my-2">
                     Map
-                    <div id="map" style="height:400px; width:100%;"></div>
+                    <div id="map" style="height:638px; width:100%;"></div>
                     <script>
                         function initMap() {
                             var map = new google.maps.Map(document.getElementById('map'), {
@@ -83,8 +83,7 @@
                                     google.maps.event.addListener(marker, 'click', function() {
                                         infowindow.setContent('<div><strong>' + place.name + '</strong><br>' +
                                             'Place ID: ' + place.place_id + '<br>' +
-                                            place.formatted_address + '</div>''<div>
-                        </div>');
+                                            place.formatted_address + '</div>');
                                         infowindow.open(map, this);
                                     });
                                 }
@@ -118,9 +117,17 @@
                             </div>
                         </div>
                         <div class="col-lg-12 col-sm-6 col-6 rounded">
-                            <h5 class="card-title mb-1"><a href="http://fedbywater.co.uk/" target="_blank"><!--Resturant Name--></a></h5>
-                            <p class="mb-0"><i class="fas fa-map-marker-alt"></i> <!--*Location, Which Side of London*--></p>
-                            <p class="text-justify card-text mb-2 changeme"><!--What is so great about it?--></p>
+                            <h5 class="card-title mb-1">
+                                <a href="http://fedbywater.co.uk/" target="_blank">
+                                    <!--Resturant Name-->
+                                </a>
+                            </h5>
+                            <p class="mb-0"><i class="fas fa-map-marker-alt"></i>
+                                <!--*Location, Which Side of London*-->
+                            </p>
+                            <p class="text-justify card-text mb-2 changeme">
+                                <!--What is so great about it?-->
+                            </p>
                             <p class="minitext mb-1">Images above from <a href="https://www.deliciousdougie.com/single-post/2018/02/10/Fed-By-Water" target="_blank">DeliciousDougie</a></p>
                         </div>
                     </div>
@@ -183,7 +190,7 @@
         </div>
     </div>
     <footer class="text-center">
-        <div class="container-fluid"> <span class="footerStyle font-weight-bold">Made with <i class="fas fa-leaf fa-lg" style="color:#668427"></i>  by Hannah + Michelle // Made possible with <a class="img-responsive" href="https://www.codefirstgirls.org.uk/free-community-courses.html" target="_blank"><img src="img/cfg_logo.png" alt="CodeFirst:Girls" id="cfg_logo"></a></span>
+        <div class="container-fluid"> <span class="footerStyle font-weight-bold">Made with <i class="fas fa-leaf fa-lg" style="color:#668427"></i>  by Hannah + Michelle + Seraphina // Made possible with <a class="img-responsive" href="https://www.codefirstgirls.org.uk/free-community-courses.html" target="_blank"><img src="img/cfg_logo.png" alt="CodeFirst:Girls" id="cfg_logo"></a></span>
         </div>
     </footer>
     <!--    Google Maps API-->
