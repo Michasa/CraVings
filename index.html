@@ -1,80 +1,100 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="utf-8">
-        <!--Bootstrap_4-->
+    <!--Bootstrap_4-->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <!--Google Fonts-->
-    <link href="https://fonts.googleapis.com/css?family=Permanent+Marker|Chewy|Delius+Swash+Caps" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Permanent+Marker|Roboto+Slab|Delius+Swash+Caps" rel="stylesheet">
     <!--Font Awesome Icons-->
     <link href="https://use.fontawesome.com/releases/v5.0.8/css/all.css" rel="stylesheet">
-    <!--Our Style-->
-    <link href="indexstylesheet.css" type="text/css" rel="stylesheet">
+    <!--Our Stylesheets-->
+    <link href="./stylesheets/consistencystylesheet.css" rel="stylesheet" type="text/css"><link href="./stylesheets/indexstylesheet.css" type="text/css" rel="stylesheet">
 </head>
 
-<body class="text-center backgroundStyle">
-    <!--navBar-->
-
-    <nav class="navbar navbar-expand-sm navbar-light nav-Bg">
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-   <div class="leafy_menu_btn">
-       <i class="fas fa-leaf fa-2x"></i>
-   </div> 
-   navigation
+<body class="text-center gradient_bluepink_bkgrnd">
+    <!--navBar button-->
+    <nav class="navbar navbar-expand-md navbar-light navStyling display">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation"><span><i class="fas fa-cloud fa-4x cloudFloat"></i></span>
   </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav mr-auto nav_Fnt">
-                <li class="nav-item"><a class="nav-link" href="#">Recommend a Spot</a></li>
-                <li class="nav-item"><a class="nav-link" href="#">Blog</a></li>
-                <li class="nav-item"><a class="nav-link" href="#">Events</a></li>
-                <li class="nav-item"><a class="nav-link" href="#">Other Locations</a></li>
-                <li class="nav-item"><a class="nav-link" href="About.html">About</a></li>
+        <!--navbar Menu-->
+        <div class="collapse navbar-collapse d-inline-flexflex-sm-column flex-wrap" id="navbarNavDropdown">
+            <!--this is the container of the menu and flex parent of the two uls-->
+            <ul class="navbar-nav">
+                <li class="nav-item active"><a class="nav-link"><i class="fas fa-home fa-1x"></i></a></li>
+                <li class="nav-item text-nowrap"><a class="nav-link" href="#">Suggest a Spot  <i class="fas fa-map-marker-alt" ></i></a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Blog  <i class="far fa-comment-alt"></i></a></li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle text-nowrap" href="#" id="navbardrop" data-toggle="dropdown">
+        Cra<span class="nav_ve font-weight-bold">Ve</span> Where   <i class="far fa-compass"></i></a>
+                    <div class="dropdown-menu">
+                        <a class="dropdown-item font-weight-bold">CraVe LDN</a>
+                        <a class="dropdown-item disabled">CraVe NYC</a>
+                        <a class="dropdown-item disabled">CraVe TKY</a>
+                    </div>
+                </li>
+            </ul>
+            <ul class="navbar-nav ml-auto p-0 d-inline-flex">
+                <div class="socialbtns">
+                    <li><a class="nav-link " href="https://www.instagram.com/codefirstgirls/?hl=en" target="_blank"><i class="fab fa-instagram"></i></a></li>
+                    <li><a class="nav-link" href="https://www.facebook.com/codefirstgirls/" target="_blank"><i class="fab fa-twitter"></i></a></li>
+                    <li><a class="nav-link" href="https://twitter.com/CodeFirstGirls" target="_blank"><i class="fab fa-facebook"></i></a></li>
+                </div>
+                <li class="nav-item"><a class="nav-link" href="About.html">About <i class="fas fa-heart" style="color:#EB5E55"></i></a></li>
             </ul>
         </div>
     </nav>
-
     <!--mainPage-->
-    <div class="container-fluid ">
-        <div class="container d-flex pt-lg-3 pt-md-0 mx-auto flex-column ">
-            <header>
-                <div class="container">
-                    <div class="row">
-                        <h1 class="title col-md-12 text-center font-weight-normal">Cra<span class="ve font-weight-bold">Ve</span></h1>
+    <div class="container-fluid" id="parentcontainer">
+        <div class="row">
+            <div class="col-12 container-fluid">
+                <div class=" d-flex pt-lg-2 pt-md-2 mx-auto flex-column">
+                    <header>
+                        <div class="container text-center">
+                            <div class="row">
+                                <h1 class="title col-md-12 text-center font-weight-normal">Cra<span class="title_ve font-weight-bold">Ve</span></h1>
+                            </div>
+                            <div class="row">
+                                <h3 class="location col-md-12 text-center font-weight-bold"><i class="fas fa-map-marker-alt"></i> london</h3>
+                            </div>
+                            <div class="row">
+                                <p class="description
+                    col-md-12 nopadding_bt mx-auto text-nowrap">Stop the <span class="hangryRed">Hanger</span> and <span class="treat font-weight-bold">Treat Yourself!</span></p>
+                            </div>
+                        </div>
+                    </header>
+                    <main class="container pb-xs-3 pb-md-1">
+                        <div class="row">
+                            <p class="lead nopadding_bt"> Sate your cravings and your conscience with our tasty <span class="lead_ve font-weight-bold">vegan</span> versions of the non-vegan food you love, right here in London.</p>
+                        </div>
+                    </main>
+                    <!--Choices-->
+                    <div class="container parent">
+                        <div class="child">
+                            <img src="img/cloud.svg" id="cloud" class="d-none d-md-inline-block" alt="a very cloudy cloud">
+                        </div>
                     </div>
-                    <div class="row">
-                        <h3 class="location col-md-12 text-center font-weight-bold">-london-</h3>
-                    </div>
-                    <div class="row">
-                        <p class="description col-md-12 text-center">"Stop the <span class="hangryRed">Hanger</span> and <span class="treat font-weight-bold">Treat Yourself!</span>"</p>
+                    <div class="container pt-lg-5 pt-md-5 mb-md-5 flex-column">
+                        <div>
+                            <a href="SweetTreats.html" class="btn my-2 ourButton ">Sweet Treats</a>
+                            <a href="FastFood.html" class="btn my-2 ourButton">Fast Food</a>
+                            <a href="WorldFood.html" class="btn my-2 ourButton">World Food</a>
+                        </div>
+                        <div>
+                            <a href="#" class="btn my-2 ourButton ">Surprise Me!</a>
+                        </div>
                     </div>
                 </div>
-            </header>
-            <main class="container">
-                <div class="row">
-                    <p class="lead text-center"> Sate your cravings and your conscience with our tasty <span class="ve">vegan</span> versions of the non-vegan food you love, right here in London.</p>
-                </div>
-            </main>
-            <!--Choices-->
-            <div class="container">
-                <a href="#" class="btn btn-primary my-2">Sweet Treats</a>
-                <a href="#" class="btn btn-primary my-2">Fast Food</a>
-                <a href="#" class="btn btn-primary my-2">World Food</a>
-            </div>
-            <div class="container">
-                <a href="#" class="btn btn-primary my-2">Surprise Me!</a>
             </div>
         </div>
     </div>
-    <div>
-        <footer>
-            <p>Made with __ by Hannah + Michelle // Powered by CodeFirst:Girls_Paddington</p>
-        </footer>
-    </div>
+
+    <footer>
+        <div class="container-fluid"> <span class="footerStyle font-weight-bold">Made with  <i class="fas fa-leaf fa-lg" style="color:#668427"></i>  by Hannah + Michelle + Seraphina // Made possible with <a class="img-responsive" href="https://www.codefirstgirls.org.uk/free-community-courses.html" target="_blank"><img src="img/cfg_logo.png" alt="CodeFirst:Girls" id="cfg_logo"></a></span>
+        </div>
+    </footer>
     <!--    Bootstrap JavaScript CDNs-->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-</body>
-
-</html>
+</body> </html>

@@ -1,0 +1,229 @@
+html, body{
+    margin: 0;
+    padding: 0;
+
+    min-width: 100%;
+    width: 100%;
+    max-width: 100%;
+
+    min-height: 100%;
+    height: 100%;
+    max-height: 100%;
+}
+
+p.nopadding_bt {
+    margin-bottom: 2px;
+}
+
+@media only screen and (max-width: 767px) {
+    /*makes buttons block elements for smaller screens*/
+    .ourButton {
+        width: 80%;
+        display: inline-block;
+    }
+    p.description {
+        font-size: 1.5rem !important;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    p.lead {
+        line-height: 0.1cm;
+    }
+}
+
+
+/*MAIN CONTENT*/
+
+/*>>background<<*/
+body.gradient_bluepink_bkgrnd {
+    background: linear-gradient(147deg, #77a7c5, #a7c6db, #c0d1db, #fe956e);
+    background-size: 800% 800%;
+    -webkit-animation: AnimationName 20s ease infinite;
+    -moz-animation: AnimationName 20s ease infinite;
+    -o-animation: AnimationName 20s cubic-bezier(.21, -0.13, .25, 1) infinite;
+    animation: AnimationName 20s ease infinite;
+}
+
+@-webkit-keyframes AnimationName {
+    0% {
+        background-position: 0% 48%
+    }
+    50% {
+        background-position: 100% 53%
+    }
+    100% {
+        background-position: 0% 48%
+    }
+}
+
+@-moz-keyframes AnimationName {
+    0% {
+        background-position: 0% 48%
+    }
+    50% {
+        background-position: 100% 53%
+    }
+    100% {
+        background-position: 0% 48%
+    }
+}
+
+@-o-keyframes AnimationName {
+    0% {
+        background-position: 0% 48%
+    }
+    50% {
+        background-position: 100% 53%
+    }
+    100% {
+        background-position: 0% 48%
+    }
+}
+
+@keyframes AnimationName {
+    0% {
+        background-position: 0% 48%
+    }
+    50% {
+        background-position: 100% 53%
+    }
+    100% {
+        background-position: 0% 48%
+    }
+}
+
+/*>>title<<*/
+
+h1.title {
+    font-size: 5.5rem;
+    margin-bottom: 0px;
+    text-shadow: 4px 3px #464a4c;
+    color: white
+}
+
+h1 span.title_ve {
+    color: #9acd32;
+    font-family: 'Delius Swash Caps', cursive;
+    text-shadow: 2px 3px #6156e5;
+}
+
+.location {
+    font-family: 'Delius Swash Caps', cursive;
+    font-size: 2.2rem;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+/*>>description<<*/
+
+p.description {
+    font-size: 1.75rem;
+}
+
+span.hangryRed {
+    font-family: 'Permanent Marker';
+    color: #fe956e;
+    font-size: 1.5em;
+    color: rgb(214, 68, 59);
+    text-shadow: 2px 3px #464a4c;
+}
+
+span.treat {
+    font-size: 1.5em;
+    color: yellowgreen;
+    font-family: 'Delius Swash Caps', cursive;
+    text-shadow: 1px 3px #6156e5;
+}
+
+p.lead {
+    display: block;
+    width: 690px;
+    margin: auto;
+    padding: 2;
+    font-size: 1.55em;
+    font-weight: 300;
+    text-align: center;
+    line-height: 1cm;
+    text-transform: lowercase;
+    font-family: 'Delius Swash Caps', cursive;
+    text-shadow: 1px 1px #6a669a;
+}
+
+.lead_ve {
+    color: yellowgreen;
+    font-family: 'Delius Swash Caps', cursive;
+    text-shadow: 1px 3px #6156e5;
+}
+
+/*>>choices<<*/
+
+.ourButton {
+    font-family: 'Roboto Slab', serif;
+    background-color: #eeeff0;
+    padding: 10px;
+    display: inline-block;
+    margin: 5px;
+    position: relative;
+    text-decoration: none;
+    color: #000000;
+    font-size: 1.5rem;
+    border-bottom: solid 1.5px rgba(165, 159, 229, 0.51);
+    box-shadow: inset 0px 1px 0px #C8C6E0, 0px 7px 0px rgba(70, 74, 76, 0.46);
+    border-radius: 10px;
+    flex: 0 0 100%
+}
+
+.ourButton:hover {
+    top: 7px;
+    box-shadow: 0px 3px 10px #8883BC;
+    color: #46445f;
+    text-shadow: 1px 2px #f1f1f4;
+    border-bottom: solid 0.5px #636089;
+    box-shadow: 0px 3px 0px rgba(99, 96, 137, 0.68);
+    background-color: #cecdde;
+}
+
+/*>>floating cloud<<*/
+
+#cloud {
+    width: 683px;
+    height: 364px;
+    z-index: -1;
+    filter: drop-shadow( 2px 2px 2px rgba(8, 8, 8, 0.48));
+    animation-name: floating;
+    animation-timing-function: ease-in-out;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes floating {
+    from {
+        transform: translate(0, 0px);
+    }
+    60% {
+        transform: translate(0, 6px);
+    }
+    to {
+        transform: translate(0, -0px);
+    }
+}
+
+.parent {
+    width: 100%;
+    display: flex;
+    flex-flow: row nowrap;
+    bottom: 90px;
+    position: relative;
+    top: -100px;
+}
+
+.child {
+    z-index: -1;
+    position: absolute;
+    width: 100%;
+    /* required */
+    flex: none;
+    /* required */
+}
