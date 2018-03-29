@@ -1,6 +1,6 @@
 body {
-    background: linear-gradient(148deg, #83dcf7, #07345B, #E03F3B, #F0A02D, #f8d7aa);
-    background-size: 600% 600%;
+    background: linear-gradient(147deg, #AEF38F, #6EE7B3, #47D4CD, #77A7C5, #57BED3);
+    background-size: 800% 800%;
     -webkit-animation: AnimationName 20s ease infinite;
     -moz-animation: AnimationName 20s ease infinite;
     animation: AnimationName 20s ease infinite;
@@ -51,7 +51,8 @@ div.shadow {
 h1.title {
     font-family: 'Racing Sans One', cursive;
     font-size: 4.5rem;
-    text-shadow: 2px 3px rgba(7, 52, 91,0.80);
+    text-shadow: 3px 3px #2c2929;
+    color: #FEB01C;
 }
 
 h4.description {

@@ -18,7 +18,7 @@ body {
 
 /*Navigation Bar*/
 nav {
-    background-color: rgba(124, 122, 150, 0.47);
+    background-color: rgba(119, 167, 197, 0.90);
 }
 
 i.cloudFloat {
@@ -35,7 +35,7 @@ button {
 }
 
 .nav_ve {
-    color: #7FA829;
+    color: #688A22;
     font-family: 'Delius Swash Caps', cursive;
 }
 
@@ -68,7 +68,7 @@ div.socialbtns a.nav-link > i:hover {
     color: #78778A !important;
 }
 
-a.active {
+div.dropdown-menu > a.active {
     background-color: #C8C6E0 !important;
 }
 
@@ -82,7 +82,7 @@ a.active {
     width: 149.797px;
 }
 
-footer .container-fluid {
+footer div.container-fluid {
     margin-top: 28px;
     background-color: rgba(124, 122, 150, 0.47);
     border-top: 2px solid white;
