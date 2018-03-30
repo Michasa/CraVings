@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en"><head>
     <meta charset="UTF-8">
+    <meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport">
     <title>World Food</title>
     <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
     <link rel="icon" href="img/favicon.ico" type="image/x-icon">
@@ -80,7 +81,7 @@
                                         position: place.geometry.location
                                     });
                                     google.maps.event.addListener(marker, 'click', function() {
-                                        infowindow.setContent('<div><strong>' + place.name + '</strong><br>' +
+                                        in0fowindow.setContent('<div><strong>' + place.name + '</strong><br>' +
                                             'Place ID: ' + place.place_id + '<br>' +
                                             place.formatted_address + '</div>');
                                         infowindow.open(map, this);
