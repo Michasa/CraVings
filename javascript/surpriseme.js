@@ -19,8 +19,3 @@ function surpriseMeEats(){
 	var randomNum=Math.round(Math.random()*(links.length));
     document.getElementById("Surprise").href=links[randomNum];
     }
-
-//var person = [];
-//person[0] = "John";
-//person[1] = "Doe";
-//person[2] = 46;
