@@ -10,14 +10,10 @@
     <script src="//use.edgefonts.net/damion.js"></script>
     <!--Font Awesome Icons-->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.9/css/all.css" integrity="sha384-5SOiIsAziJl6AWe0HWRKTXlfcSHKmYV4RBF18PPJ173Kzn7jzMyFuTtk8JA7QQG1" crossorigin="anonymous">
-    <!--Our Stylesheets-->
+    <!--Our Stylesheets and JavaScript-->
     <link href="./stylesheets/consistencystylesheet.css" rel="stylesheet" type="text/css">
     <link href="./stylesheets/STstylesheet.css" rel="stylesheet" type="text/css">
-    <script>
-        function signUp() {
-            document.getElementById("SignUp").src= "img/newsletteryay.gif";
-        }
-    </script>
+    <script src="newsletterimage.min.js"></script>
 </head>
 
 <body class="gradient_bluepink_bkgrnd">
@@ -88,11 +84,11 @@
                             <h5 class="card-title mb-1"><a href="http://fedbywater.co.uk/" target="_blank">FED by Water</a></h5>
                             <p class="mb-0"><i class="fas fa-map-marker-alt"></i> Dalston, East London</p>
                             <p class="text-justify card-text mb-2 changeme">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit alias iusto dignissimos recusandae neque veritatis eos, expedita obcaecati commodi, veniam, illum iste quae totam, nihil dolores minima rem nostrum nobis.</p>
-                            <p class="minitext mb-1">Images above from <a href="https://www.deliciousdougie.com/single-post/2018/02/10/Fed-By-Water" target="_blank">DeliciousDougie</a></p>
+
                         </div>
                     </div>
                 </div>
-                <div class="container my-2 rounded border NewsletterStyle" id="newsletter">
+                <div class="container my-2 rounded border NewsletterStyle" id="newsletter" onmouseover="signUp(this)" onmouseout="signUpAway(this)">
                     <h4 class="text-center pt-2 font-weight-bold sidebarHeader mb-1">Fear of Missing Out?<i class="far fa-paper-plane"></i></h4>
                     <h6 class="card-subtitle text-center mb-1">Sign up to our newsletter!</h6>
                     <div class="row align-items-center no-gutters">
@@ -103,7 +99,7 @@
                             <form>
                                 <div>
                                     <label for="question"> My email address is</label>
-                                    <input type="email" id="email" onclick="signUp()" placeholder="fedmeplz@ritenow.co.uk" style="width:100%" required>
+                                    <input type="email" id="email" placeholder="fedmeplz@ritenow.co.uk" style="width:100%" required>
                                 </div>
                                 <div>
                                     <label for="question" class="d-block"> I'm interested in</label>
