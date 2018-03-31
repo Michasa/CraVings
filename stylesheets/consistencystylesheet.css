@@ -15,6 +15,12 @@ body {
         padding: 0 8px;
     }
 }
+@media only screen and (max-width: 767px) {
+    /*reduce size of map at smaller viewports*/
+       #map {
+    height:400px !important;
+}
+}
 
 /*Navigation Bar*/
 nav {
@@ -102,15 +108,20 @@ h5.card-title {
     font-weight: 900;
 }
 
-h6.card-subtitle {
+span.card-subtitle, h6.card-subtitle {
     font-family: 'Delius Swash Caps', cursive;
     font-size: 1rem;
+
 }
 
-p.card-text {
-    line-height: 1.2 !important;
+div.pParent > p{
+    text-align: justify;
     font-size: 0.9rem;
-    font-family: 'Georgia', serif;
+}
+
+p.pEmph {
+    font-size:0.99rem !important;
+    font-family: 'Roboto Slab', serif;
 }
 
 p.minitext {
@@ -169,4 +180,9 @@ form > div > label {
     border-bottom: solid 0.5px #636089;
     box-shadow: 0px 3px 0px rgba(99, 96, 137, 0.68);
     background-color: #cecdde;
+}
+
+div#map {
+    height:800px;
+    width:100%;
 }
