@@ -10,9 +10,9 @@
     <script src="//use.edgefonts.net/damion.js"></script>
     <!--Font Awesome Icons-->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.9/css/all.css" integrity="sha384-5SOiIsAziJl6AWe0HWRKTXlfcSHKmYV4RBF18PPJ173Kzn7jzMyFuTtk8JA7QQG1" crossorigin="anonymous">
-    <!--Our Stylesheets and JavaScript-->
-    <link href="./stylesheets/consistencystylesheet.css" rel="stylesheet" type="text/css">
-    <link href="./stylesheets/STstylesheet.css" rel="stylesheet" type="text/css">
+    <!--Our Stylesheets-->
+    <link href="./stylesheets/consistencystylesheet.css" rel="stylesheet" type="text/css"><link href="./stylesheets/STstylesheet.css" rel="stylesheet" type="text/css">
+    <!--Map and Other JavaScript-->
     <script src="newsletterimage.min.js"></script>
 </head>
 
@@ -52,39 +52,60 @@
             <div class="col-lg-9 col-md-12" id="mainpage">
                 <div class="container bg-light border rounded shadow my-2 text-center">
                     <h1 class="title pt-lg-4">Sweet Treats</h1>
-                    <h4 class="description">Sugar and Spice, and nothing that's not nice (well, anything that's not vegan at least)</h4>
-                    <p>Click below to see all the cake, ice-cream, and pasteries London has to offer</p>
+                    <h4 class="description">Sugar and Spice, and nothing that's not nice (well, anything that's not vegan at least!). Whether you share or not is your choice!</h4>
+                    <p>Click below to see all the vegan cake, ice-cream, and chocolate London has to offer</p>
                 </div>
-                <div class="container bg-light border rounded shadow my-2"> Map </div>
+                <div class="container bg-light border rounded shadow my-2">
+                    Map here
+                    <div id="map" class="py-2"></div>
+                </div>
             </div>
             <div class="col-lg-3 col-md-12 " id="sidebar">
                 <div class="container my-2 rounded border RecommendStyle" id="recommended">
-                    <h4 class="text-center pt-2 font-weight-bold sidebarHeader mb-1">Star Eat of the Week <i class="far fa-star fa-xs fa-spin"></i></h4>
-                    <h6 class="card-subtitle text-center mb-1">As chosen by Hannah</h6>
+                    <h4 class="text-center pt-2 font-weight-bold sidebarHeader mb-1">Star Eats of the Week <i class="far fa-star fa-xs fa-spin"></i></h4>
+                    <h6 class="card-subtitle text-center mb-1">As chosen by Seraphina</h6>
                     <div class="row no-gutters align-items-center">
                         <div class="col-lg-12 col-sm-6 col-6">
                             <div id="StarEatSlideshow" class="carousel slide" data-ride="carousel" data-intereval="3000">
                                 <div class="carousel-inner">
                                     <div class="carousel-item  active">
-                                        <img class="d-block w-70 p-2 img-fluid" src="img/fbw1.jpg" alt="fed by water front">
+                                        <img class="d-block w-100  p-2 img-fluid" src="img/fbw1.jpg" alt="fed by water front">
                                     </div>
                                     <div class="carousel-item">
-                                        <img class="d-block w-70 p-2 img-fluid" src="img/fbw3.jpg" alt="fed by water inside">
+                                        <img class="d-block w-100 p-2 img-fluid" src="img/fbw3.jpg" alt="fed by water inside">
                                     </div>
                                     <div class="carousel-item">
-                                        <img class="d-block w-70 p-2 img-fluid" src="img/fbw2.jpg" alt="fed by water food">
+                                        <img class="d-block w-100 p-2 img-fluid" src="img/fbw2.jpg" alt="fed by water food">
                                     </div>
                                     <div class="carousel-item">
-                                        <img class="d-block w-70 p-2 img-fluid" src="img/fbw4.jpg" alt="fed by water food">
+                                        <img class="d-block w-100 p-2 img-fluid" src="img/fbw4.jpg" alt="fed by water food">
                                     </div>
                                 </div>
                             </div>
                         </div>
                         <div class="col-lg-12 col-sm-6 col-6 rounded">
-                            <h5 class="card-title mb-1"><a href="http://fedbywater.co.uk/" target="_blank">FED by Water</a></h5>
-                            <p class="mb-0"><i class="fas fa-map-marker-alt"></i> Dalston, East London</p>
-                            <p class="text-justify card-text mb-2 changeme">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit alias iusto dignissimos recusandae neque veritatis eos, expedita obcaecati commodi, veniam, illum iste quae totam, nihil dolores minima rem nostrum nobis.</p>
+                            <!-- Uncomment and give credit to image sources!
+                            <p class="minitext mb-1">Images above from
+                                <a href="https://www.deliciousdougie.com/single-post/2018/02/10/Fed-By-Water" target="_blank">DeliciousDougie</a>
+                            </p>
+-->
+                            <h5 class="card-title mb-1">
+                                <a href="#" target="_blank">
+                                    Change Me </a> // <a class="mx-1" href="#" target="_blank"><i class="fab fa-instagram"></i></a> <a class="mx-1" href="#" target="_blank"><i class="fab fa-twitter"></i></a><a class="mx-1" href="#" target="_blank"><i class="fab fa-facebook"></i></a>
+                            </h5>
+                            <p class="mb-0"><i class="fas fa-map-marker-alt"></i> Location, What Part of London</p>
 
+                            <div class="pParent">
+                                <p class="text-justify card-text mb-1 pEmph">
+                                    <!--World Limit 27, put any over flowing text below Delete me once changed.-->
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore aliquam officia deleniti deserunt quasi a nesciunt fugiat vero blanditiis, ab similique iure, porro maiores. Magni, aperiam, optio.</p>
+                                <p class="text-right mb-1"><a data-toggle="collapse" href="#readMoreLess" aria-expanded="false" aria-controls="readMoreLess">
+    Read More/Less... </a></p>
+                                <div class="collapse pParent" id="readMoreLess">
+                                    <!--Put any text that doesn't fit above here-->
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum quod consequatur quibusdam iure eius necessitatibus officia asperiores ut debitis harum, laborum distinctio, fugit impedit, odio magni explicabo? Tempore, culpa, similique.</p>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
