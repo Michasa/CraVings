@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+    <meta charset="UTF-8">
+    <meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport">
+    <title>Suggest a Spot</title>
+    <!--Bootstrap_4-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <!--Google Fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Bungee+Inline|Bungee+Shade" rel="stylesheet"type='text/css'>
+    <!--Font Awesome Icons-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.9/css/all.css" integrity="sha384-5SOiIsAziJl6AWe0HWRKTXlfcSHKmYV4RBF18PPJ173Kzn7jzMyFuTtk8JA7QQG1" crossorigin="anonymous">
+    <!--Our Stylesheets-->
+    <link href="./stylesheets/consistencystylesheet.css" rel="stylesheet" type="text/css">
+    <link href="./stylesheets/SuggestaSpotstylesheet.css" rel="stylesheet" type="text/css">
+    <!--Map and Other JavaScript-->
+    <script src="newsletterimage.min.js"></script>
+</head>
+
+<body class="gradient_bluepink_bkgrnd">
+    <!--navBar button-->
+    <nav class="text-center navbar navbar-expand-md navbar-light navStyling display">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation"><span><i class="fas fa-cloud fa-4x cloudFloat"></i></span>
+  </button>
+        <!--navbar Menu-->
+        <div class="collapse navbar-collapse d-inline-flexflex-sm-column flex-wrap" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+                <li class="nav-item"><a class="nav-link" href="index.html"><i class="fas fa-home fa-1x"></i></a></li>
+                <li class="nav-item text-nowrap"><a class="nav-link" href="#">Suggest a Spot  <i class="fas fa-map-marker-alt" ></i></a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Blog  <i class="fas fa-comment-dots"></i></a></li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="menu" data-toggle="dropdown">Menu <i class="fas fa-utensils"></i></a>
+                    <div class="dropdown-menu">
+                        <a class="dropdown-item nav-link active">Sweet Treats</a>
+                        <a class="dropdown-item nav-link" href="FastFood.html">Fast Food</a>
+                        <a class="dropdown-item nav-link" href="WorldFood.html">World Food</a>
+                    </div>
+                </li>
+            </ul>
+            <ul class="navbar-nav ml-auto p-0 d-inline-flex">
+                <div class="socialbtns">
+                    <li><a class="nav-link " href="https://www.instagram.com/codefirstgirls/?hl=en" target="_blank"><i class="fab fa-instagram"></i></a></li>
+                    <li><a class="nav-link" href="https://www.facebook.com/codefirstgirls/" target="_blank"><i class="fab fa-twitter"></i></a></li>
+                    <li><a class="nav-link" href="https://twitter.com/CodeFirstGirls" target="_blank"><i class="fab fa-facebook"></i></a></li>
+                </div>
+                <li class="nav-item"><a class="nav-link" href="About.html">About <i class="fas fa-heart" style="color:#EB5E55"></i></a></li>
+            </ul>
+        </div>
+    </nav>
+    <!--Main-->
+    <div class="container-fluid">
+        <div class="row pt-3">
+            <div class="col-lg-9 col-md-9" id="mainpage">
+                <div class="container bg-light border rounded shadow my-2 text-center">
+                  <div class="jumbotron">
+        <div class="container text-center">
+                  <div class ="center">
+                    <h1 class="title pt-lg-4 pt-lg-offset-4"> Rave About It</h1>
+                    <h2 class="description"> We want to know what you think! </h2>
+                    <p> Found an awesome spot we don't know about yet? Spill the beans!</p>
+                    <form action="URL to form script" method="POST">
+
+Your name: <br>
+<input type="text" name="realname"><br>
+<br>
+
+Your email: <br>
+<input type="text" name="email"><br>
+<br>
+
+Your comments: <br>
+<textarea name="comments" rows="15" cols="50"></textarea><br><br>
+
+<input type="submit" onclick="myfunction()" value="Submit">
+
+</form>
+
+<script>
+function myFunction() {
+    document.getElementById("frm1").submit();
+}
+var form = document.getElementById('comment form');
+form.onsubmit = function(e) {
+  e.preventDefault();
+  var result = document.getElementById('result');
+  result.innerHTML = 'comments' + form.fullname.value;
+  this.reset();
+};
+</script>
+
+
+    <footer class="text-center">
+        <div class="container-fluid"> <span class="footerStyle font-weight-bold">Made with <i class="fas fa-seeling fa-lg" style="color:#668427"></i>  by Hannah + Michelle + Seraphina // Made possible with <a class="img-responsive" href="https://www.codefirstgirls.org.uk/free-community-courses.html" target="_blank"><img src="img/cfg_logo.png" alt="CodeFirst:Girls" id="cfg_logo"></a></span>
+        </div>
+    </footer>
+    <!--    Bootstrap JavaScript CDNs-->
+    <!--    Bootstrap JavaScript CDNs-->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  </body>
+
+  </html>
