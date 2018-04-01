@@ -1,0 +1,45 @@
+div#container-fluid {
+  background-color: blue
+}
+
+h1 {
+  font-size: 75px;
+  text-align: center;
+  font-family: 'Bungee Shade', cursive;
+  margin: 60px 0 0 0;
+  font-color: #aaaaaa;
+}
+h2 {
+  text-align: center;
+  margin: 0px 0 70px 0;
+  font-color: #bbbbbb;
+}
+body {
+    display: inline-block;
+    margin: 0px auto;
+    text-align: center;
+}
+#page-wrap {
+  text-align: left;
+  width: 800px;
+  margin: 0 auto;
+}
+.content {
+    max-width: 500px;
+    margin: auto;
+}
+.center {
+    text-align: center;
+    border: 3px solid green;
+}
+.jumbotron{
+  heght:100%;
+  width:100%;
+}
+.container{
+  width:1025px;
+}
+
+.jumbotron .container {
+  max-width: 100%;
+}
