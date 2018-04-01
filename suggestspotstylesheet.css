@@ -1,0 +1,16 @@
+.background { /*edit this selector to change the background of the place*/
+/*go to this webiste to create one of the moving gradient backgrounds*/
+/* https://www.gradient-animator.com/ and copy everything on the left into here*/
+}
+
+h1.title {
+  font-size: 4.6rem;
+  text-align: center;
+  font-family: 'Bungee Shade', cursive;
+  color: #aaaaaa;
+}
+h2 {
+  color: #bbbbbb;
+}
+
+
