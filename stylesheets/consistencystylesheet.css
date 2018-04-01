@@ -98,6 +98,11 @@ footer div.container-fluid {
 }
 
 /*RESULTS PAGES ONLY*/
+/*MAP*/
+div#map {
+    height:800px;
+    width:100%;
+}
 /*SIDEBAR */
 h4.sidebarHeader {
     font-family: 'Delius Swash Caps', cursive;
@@ -131,11 +136,6 @@ p.minitext {
 }
 
 /*Recommendation of the Week*/
-div.RecommendStyle {
-    background-color: rgba(242, 161, 161, 0.80);
-
-}
-
 div.NewsletterStyle {
     background-color: rgba(174, 140, 166, 0.80);
 }
@@ -180,9 +180,4 @@ form > div > label {
     border-bottom: solid 0.5px #636089;
     box-shadow: 0px 3px 0px rgba(99, 96, 137, 0.68);
     background-color: #cecdde;
-}
-
-div#map {
-    height:800px;
-    width:100%;
 }

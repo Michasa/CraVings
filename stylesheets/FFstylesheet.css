@@ -60,9 +60,9 @@ h4.description {
     font-family: 'Delius Swash Caps', cursive;
 }
 
-/*Helper Colours*/
+/*Sidebar*/
+div.RecommendStyle {
+    background-color: rgba(254, 176, 28, 0.7) !important;
+;
 
-.changeme {
-    color: red !important;
-    background: rgba(255, 235, 0, 0.32);
 }
