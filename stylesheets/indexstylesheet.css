@@ -1,4 +1,5 @@
-html, body{
+html,
+body {
     margin: 0;
     padding: 0;
     min-width: 100%;
@@ -22,6 +23,13 @@ p.nopadding_bt {
     p.description {
         font-size: 1.5rem !important;
     }
+
+    p.surpiseExplain {
+        margin-left: 0;
+        margin-right: 0;
+        position: relative;
+        display: block;
+    }
 }
 
 @media only screen and (min-width: 992px) {
@@ -37,6 +45,7 @@ nav {
 /*MAIN CONTENT*/
 
 /*>>background<<*/
+
 body.gradient_bluepink_bkgrnd {
     background: linear-gradient(147deg, #77a7c5, #a7c6db, #c0d1db, #fe956e);
     background-size: 800% 800%;
@@ -184,6 +193,14 @@ p.lead {
     border-bottom: solid 0.5px #636089;
     box-shadow: 0px 3px 0px rgba(99, 96, 137, 0.68);
     background-color: #cecdde;
+}
+
+p.surpiseExplain {
+    margin-bottom: 0;
+    font-family: 'Delius Swash Caps', cursive;
+    position: absolute;
+    margin-left: 25%;
+    margin-right: 25%;
 }
 
 /*>>floating cloud<<*/

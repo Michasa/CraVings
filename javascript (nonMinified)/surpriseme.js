@@ -1,3 +1,10 @@
+function explanation(){
+    document.getElementById("explaining").innerHTML= "For the truly indecisive, click this button to get a random vegan restaurant!";
+}
+function explanationAway(){
+    document.getElementById("explaining").innerHTML="";
+}
+
 var links=[];
 	links[0]="http://arancinibrothers.com/";
 	links[1]="http://blackcatcafe.co.uk/";
