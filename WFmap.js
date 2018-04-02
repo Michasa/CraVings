@@ -56,22 +56,15 @@ function initMap() {
             ]; //incomplete
 
     for (var i = 0; i < wfPlaces.length; i++) {
-
         service.getDetails(wfPlaces[i][0], function (place, status) {
-            if (status === google.maps.GeocoderStatus.OVER_QUERY_LIMIT) {
-                console.log(status + [i]);
-                setTimeout(function () {
-                    displayPlaces(map, service, infowindow, data, i);
-                }, 200);
-            } else if (status === google.maps.places.PlacesServiceStatus.OK) {
+            if (status === google.maps.places.PlacesServiceStatus.OK) {
                 var marker = new google.maps.Marker({
                     map: map,
                     position: place.geometry.location
                 });
-
                 google.maps.event.addListener(marker, 'click', function () {
                     infowindow.setContent('<div><strong>' + place.name + '</strong><br>' +
-                        'Cuisine:' + place.place_id + '<br>' +
+                        'Place ID: ' + place.place_id + '<br>' +
                         place.formatted_address + '</div>');
                     infowindow.open(map, this);
                 });
