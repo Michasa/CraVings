@@ -1,6 +1,7 @@
 div.info_1 {
     background-color: #9acd32;
 	margin: 30px 20% 0 20%;
+	padding: 10px;
 }
 div.info_1 p {
     text-align: justify;
@@ -16,11 +17,5 @@ div.info_1 img {
 div.info_1 h2 {
     text-align: center;
 }
-div.info_2 img {
-	width: 20%;
-	float:left;
-	height: auto;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
+div.info_1 h4 {
+    text-align: center;
