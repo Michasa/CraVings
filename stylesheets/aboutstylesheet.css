@@ -31,3 +31,11 @@ span {
 	font-family: 'Delius Swash Caps', cursive;
 	color: #9acd32; 
 }
+textarea {
+	width: 100%;
+}
+	h5 {
+		font-family: 'Roboto Slab', serif;
+	}
+		
+}
