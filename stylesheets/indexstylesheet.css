@@ -1,3 +1,4 @@
+/*Minified 02/04*/
 html,
 body {
     margin: 0;
@@ -47,9 +48,6 @@ nav {
     background-color: rgba(124, 122, 150, 0.90)!important;
 }
 
-/*MAIN CONTENT*/
-
-/*>>background<<*/
 
 body.gradient_bluepink_bkgrnd {
     background: linear-gradient(147deg, #77a7c5, #a7c6db, #c0d1db, #fe956e);
@@ -131,7 +129,7 @@ h1 span.title_ve {
     text-align: center;
 }
 
-/*>>description<<*/
+
 
 p.description {
     font-size: 1.75rem;
@@ -172,7 +170,7 @@ p.lead {
     text-shadow: 1px 3px #6156e5;
 }
 
-/*>>choices<<*/
+
 
 .ourButton {
     font-family: 'Roboto Slab', serif;
@@ -208,7 +206,7 @@ p.surpiseExplain {
     margin-right: 25%;
 }
 
-/*>>floating cloud<<*/
+
 
 #cloud {
     width: 683px;
