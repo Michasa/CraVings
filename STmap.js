@@ -15,9 +15,9 @@ var places = [
 ]
 
 function initMap() {
-// creates the object map
-var map = new google.maps.Map(document.getElementById('map'), {
-    center: {
+    // creates the object map
+    var map = new google.maps.Map(document.getElementById('map'), {
+        center: {
             lat: 51.509865,
             lng: -0.118092
         },
@@ -27,28 +27,25 @@ var map = new google.maps.Map(document.getElementById('map'), {
     var infowindow = new google.maps.InfoWindow();
 
     for (var i = 0; i < places.length; i++) {
-     var newMarker = new google.maps.Marker({
-        position: {lat: places[i][3], lng: places[i][4]},
-        map: map,
-        title: places[i][0]
-                });
+        var newMarker = new google.maps.Marker({
+            position: {
+                lat: places[i][3],
+                lng: places[i][4]
+            },
+            map: map,
+            title: places[i][0]
+        });
+        google.maps.event.addListener(newMarker, 'click', (function (newMarker, i) {
+            return function () {
+                infowindow.setContent('<div><strong>' + places[i][0] + '</strong><br>' +
+                '<strong>' + 'Type:' + '</strong>' + places[i][2] + '<br>' +
+                places[i][5] + '<br>'
+                + places[i][6]+ '</div>');
+                infowindow.open(map, this);
+                infowindow.open(map, newMarker);
+            }
+        })(newMarker, i));
     }
 }
 
-//    //for (var i = 0; i < places.length; i++) {
-//    service.getDetails(places[i][0], function (place, status) {
-//            if (status === google.maps.places.PlacesServiceStatus.OK) {
-//                var marker = new google.maps.Marker({
-//                    map: map,
-//                    position: place.geometry.location
-//                });
-//                google.maps.event.addListener(marker, 'click', function () {
-//                    infowindow.setContent('<div><strong>' + place.name + '</strong><br>' +
-//                        'Place ID: ' + place.place_id + '<br>' +
-//                        place.formatted_address + '</div>');
-//                    infowindow.open(map, this);
-//                });
-//            }
-//        });
-//    }
-//}
+//fuck yeaaaaah
