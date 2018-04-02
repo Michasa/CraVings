@@ -25,10 +25,15 @@ p.nopadding_bt {
     }
 
     p.surpiseExplain {
-        margin-left: 0;
-        margin-right: 0;
+        margin-left: 0px !important;
+        margin-right: 0px !important;
         position: relative;
-        display: block;
+        padding:0 10%;
+        display: flex;
+    }
+
+    div.parExplain {
+        position: static;
     }
 }
 
@@ -242,4 +247,8 @@ p.surpiseExplain {
     position: absolute;
     width: 100%;
     flex: none;
+}
+
+div.parExplain {
+    position: relative;
 }
