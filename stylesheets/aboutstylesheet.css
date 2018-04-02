@@ -1,11 +1,12 @@
 div.info_1 {
-    background-color: #9acd32;
 	margin: 30px 20% 0 20%;
+	border-color: #9acd32;
 	padding: 10px;
 }
 div.info_1 p {
     text-align: justify;
 	font-size: 14px;
+	font-family: 'Roboto Slab', serif;
 }
 div.info_1 img {
 	width: 20%;
@@ -25,3 +26,8 @@ iframe {
     display: block;
     margin: 0 auto;
     border: 0;
+}
+span {
+	font-family: 'Delius Swash Caps', cursive;
+	color: #9acd32; 
+}
