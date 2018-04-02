@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport">
@@ -15,7 +14,7 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.9/css/all.css" integrity="sha384-5SOiIsAziJl6AWe0HWRKTXlfcSHKmYV4RBF18PPJ173Kzn7jzMyFuTtk8JA7QQG1" crossorigin="anonymous">
     <!--Our Stylesheets-->
     <link href="./stylesheets/consistencystylesheet.css" rel="stylesheet" type="text/css">
-    <link href="./stylesheets/indexstylesheet.css" type="text/css" rel="stylesheet">
+    <link href="./stylesheet-min/indexstylesheet.min.css" type="text/css" rel="stylesheet">
 </head>
 
 <body class="text-center gradient_bluepink_bkgrnd">
@@ -85,14 +84,18 @@
                         </div>
                         <div>
                             <a class="btn my-2 ourButton" href="#" id="Surprise" onclick="surpriseMeEats()" target="_blank" onmouseover="explanation(this)" onmouseout="explanationAway(this)">Surprise Me!</a>
-                                <div class="position-relative font-weight-bold"><p class="text-center mb-0 surpiseExplain" id="explaining"></p></div>
+                        </div>
+                        <div class="parExplain font-weight-bold">
+                            <p class="text-center mb-0 surpiseExplain d-none d-md-block" id="explaining"></p>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-
+    <div>
+        <p class="text-center mb-2 surpiseExplain d-md-none d-block"> Unsure? Click the <em>Surprise Me</em> button to get a random vegan restaurant.</p>
+    </div>
     <footer>
         <div class="container-fluid"> <span class="footerStyle font-weight-bold">Made with  <i class="fas fa-seedling fa-lg" style="color:#668427"></i>  by Hannah + Michelle + Seraphina // Made possible with <a class="img-responsive" href="https://www.codefirstgirls.org.uk/free-community-courses.html" target="_blank"><img src="img/cfg_logo.png" alt="CodeFirst:Girls" id="cfg_logo"></a></span>
         </div>
