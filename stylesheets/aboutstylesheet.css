@@ -1,41 +1,115 @@
-div.info_1 {
-	margin: 30px 20% 0 20%;
-	border-color: #9acd32;
-	padding: 10px;
+@media only screen and (max-width: 767px) {
+    div.info_1 {
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+    }
 }
+
+.background {
+    background: linear-gradient(147deg, #77a7c5, #a7c6db, #c0d1db, #fe956e);
+    /*change the line above with your colours, go onto this website  (https://www.gradient-animator.com/) and copy the background:linear-gradient line for it to change to your colours*/
+    background-size: 800% 800%;
+    -webkit-animation: AnimationName 20s ease infinite;
+    -moz-animation: AnimationName 20s ease infinite;
+    -o-animation: AnimationName 20s cubic-bezier(.21, -0.13, .25, 1) infinite;
+    animation: AnimationName 20s ease infinite;
+}
+
+@-webkit-keyframes AnimationName {
+    0% {
+        background-position: 0% 48%
+    }
+    50% {
+        background-position: 100% 53%
+    }
+    100% {
+        background-position: 0% 48%
+    }
+}
+
+@-moz-keyframes AnimationName {
+    0% {
+        background-position: 0% 48%
+    }
+    50% {
+        background-position: 100% 53%
+    }
+    100% {
+        background-position: 0% 48%
+    }
+}
+
+@-o-keyframes AnimationName {
+    0% {
+        background-position: 0% 48%
+    }
+    50% {
+        background-position: 100% 53%
+    }
+    100% {
+        background-position: 0% 48%
+    }
+}
+
+@keyframes AnimationName {
+    0% {
+        background-position: 0% 48%
+    }
+    50% {
+        background-position: 100% 53%
+    }
+    100% {
+        background-position: 0% 48%
+    }
+}
+
+
+div.info_1 {
+    margin: 30px 20% 0 20%;
+    background-color: #b4e354 !important;
+    padding: 10px;
+}
+
 div.info_1 p {
     text-align: justify;
-	font-size: 14px;
-	font-family: 'Roboto Slab', serif;
+    font-size: 14px;
+    font-family: 'Roboto Slab', serif;
 }
+
 div.info_1 img {
-	width: 20%;
-	float:center;
-	height: auto;
+    width: 20%;
+    float: center;
+    height: auto;
     display: block;
     margin-left: auto;
     margin-right: auto;
 }
+
 div.info_1 h2 {
     text-align: center;
 }
+
 div.info_1 h4 {
     text-align: center;
 }
+
 iframe {
     display: block;
     margin: 0 auto;
     border: 0;
 }
+
 span {
-	font-family: 'Delius Swash Caps', cursive;
-	color: #9acd32; 
+    font-family: 'Delius Swash Caps', cursive;
+    color: #719625;
 }
+
 textarea {
-	width: 100%;
+    width: 100%;
 }
-	h5 {
-		font-family: 'Roboto Slab', serif;
-	}
-		
+
+h5 {
+    font-family: 'Roboto Slab', serif;
+}
+
 }
