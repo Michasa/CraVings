@@ -1,80 +1,38 @@
-media only screen and (max-width: 767px) {
-    div.info_1 {
-        margin-left: 0 !important;
-        margin-right: 0 !important;
-    }
-}
-
 .background {
-    background: linear-gradient(147deg, #77a7c5, #a7c6db, #c0d1db, #fe956e);
-    /*change the line above with your colours, go onto this website  (https://www.gradient-animator.com/) and copy the background:linear-gradient line for it to change to your colours*/
-    background-size: 800% 800%;
-    -webkit-animation: AnimationName 20s ease infinite;
-    -moz-animation: AnimationName 20s ease infinite;
-    -o-animation: AnimationName 20s cubic-bezier(.21, -0.13, .25, 1) infinite;
-    animation: AnimationName 20s ease infinite;
+background: linear-gradient(273deg,#845EC2,#FF6F91 ,#FF9671, #FFC75F);
+background-size: 400% 400%;
+-webkit-animation: AnimationName 30s ease infinite;
+-moz-animation: AnimationName 30s ease infinite;
+animation: AnimationName 30s ease infinite;
 }
-
 @-webkit-keyframes AnimationName {
-    0% {
-        background-position: 0% 48%
-    }
-    50% {
-        background-position: 100% 53%
-    }
-    100% {
-        background-position: 0% 48%
-    }
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
 }
-
 @-moz-keyframes AnimationName {
-    0% {
-        background-position: 0% 48%
-    }
-    50% {
-        background-position: 100% 53%
-    }
-    100% {
-        background-position: 0% 48%
-    }
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
 }
-
-@-o-keyframes AnimationName {
-    0% {
-        background-position: 0% 48%
-    }
-    50% {
-        background-position: 100% 53%
-    }
-    100% {
-        background-position: 0% 48%
-    }
-}
-
 @keyframes AnimationName {
-    0% {
-        background-position: 0% 48%
-    }
-    50% {
-        background-position: 100% 53%
-    }
-    100% {
-        background-position: 0% 48%
-    }
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
 }
 
+
+{ /*edit this selector to change the background of the place*/
+/*go to this webiste to create one of the moving gradient backgrounds*/
+/* https://www.gradient-animator.com/ and copy everything on the left into here*/
+}
 
 h1.title {
   font-size: 4.6rem;
   text-align: center;
   font-family: 'Bungee Shade', cursive;
-  color: #aaaaaa;
+  color: black;
 }
 h2 {
-  color: #bbbbbb;
-}
-div.info_1 {
-    margin: 30px 20% 0 20%;
-    background-color: #dc3545 !important;
-    padding: 10px;
+  color: #00100b;
 }
