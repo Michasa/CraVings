@@ -1,5 +1,5 @@
 body {
-    background: linear-gradient(148deg, #83dcf7,  #83dcf7);
+    background: linear-gradient(148deg, #83dcf7, #83dcf7);
     background-size: 800% 800%;
     -webkit-animation: AnimationName 20s ease infinite;
     -moz-animation: AnimationName 20s ease infinite;
@@ -63,3 +63,15 @@ h4.description {
 div.RecommendStyle {
     background-color: rgba(212, 67, 67, 0.7);
 }
+
+/*MAP*/
+/*title style, change colour to be same as results title colour*/
+#iw-container .iw-title {
+    font-family: 'Delius Swash Caps', cursive;
+    font-size: 1.3rem;
+    font-weight: 800;
+    text-align: center;
+    color: #de5454;
+}
+
+

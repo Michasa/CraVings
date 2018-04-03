@@ -134,6 +134,29 @@ p.minitext {
     text-align: right;
     font-style: italic;
 }
+/*google map infowindow styling*/
+.gm-style-iw {
+   padding-left: 20px;
+   padding-bottom: 10px;
+   top: 0 !important;
+   left: 0 !important;
+   top: 0 !important;
+   left: 0 !important;
+   background-color: #fff;
+   border-radius: 2px 2px 0 0;
+   width: 350px !important;
+   top: 15px !important;
+   left: 0 !important;
+}
+
+#iw-container span.mapText {
+    font-family: 'Roboto Slab', serif;
+}
+
+#iw-container span.bold {
+    font-family: 'Roboto Slab', serif;
+    font-weight: bold;
+}
 
 /*Recommendation of the Week*/
 div.NewsletterStyle {
@@ -180,4 +203,8 @@ form > div > label {
     border-bottom: solid 0.5px #636089;
     box-shadow: 0px 3px 0px rgba(99, 96, 137, 0.68);
     background-color: #cecdde;
+}
+
+.mapPadding {
+    padding-top:0;
 }

@@ -37,10 +37,10 @@ function initMap() {
         });
         google.maps.event.addListener(newMarker, 'click', (function (newMarker, i) {
             return function () {
-                infowindow.setContent('<div><strong>' + places[i][0] + '</strong><br>' +
-                '<strong>' + 'Type:' + '</strong>' + places[i][2] + '<br>' +
-                places[i][5] + '<br>'
-                + places[i][6]+ '</div>');
+                infowindow.setContent('<div>'+'<div id="iw-container"><div class="iw-title">' + places[i][0] + '</div>'+
+                    '<span class="bold">' + 'Type:' + '</span>' +  '<span class="mapText">' + places[i][2] + '<br>' +
+                    places[i][5] + '<br>' +
+                    places[i][6] + '</span>'+ '</div>');
                 infowindow.open(map, this);
                 infowindow.open(map, newMarker);
             }
