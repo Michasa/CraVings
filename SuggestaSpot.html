@@ -46,34 +46,43 @@
         </div>
     </nav>
     <!--Main-->
-    <div class="container text-center">
-        <div>
-            <h1 class="title mt-4"> Rave About It</h1>
-            <h2 class="description mb-0"> We want to know what you think! </h2>
-            <p> Found an awesome spot we don't know about yet? Spill the beans!</p>
-        </div>
-        <div>
-        <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSf7-_nrIEEkL7S0qEKQEI2C_-55oDXWBEMDyNOO7bMUYgGKsQ/viewform?embedded=true" width="760" height="500" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
-
-
-            <!--
-                    <form action="#" method="post">
-
-            Your name: <br>
-            <input type="text" name="realname"><br>
-            <br> Your email: <br>
-            <input type="text" name="email"><br>
-            <br> Your comments: <br>
-            <textarea name="comments" rows="15" cols="50"></textarea><br><br>
-            <input type="submit" onclick="myfunction()" value="Submit">
-
-        </form>
--->
-        </div>
-    </div>
+		<div class="container">
+                       <div class="row info_1">
+                        <div class="col-lg-12 rounded border">
+                            <form>
+                                <div>
+                                    <label for="question"> <h5>My email address is:</h5></label>
+                                    <input type="email" id="email" placeholder="restaurantplz@ritenow.co.uk" style="width:100%" required>
+                                </div>
+                                <br>
+                                 <div>
+                                    <label for="question" class="d-block"> <h5>I am...</h5></label>
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="checkbox" id="hungry" value="hungryyes" name="sendme">
+                                        <label class="form-check-label" for="hungry">Hungry</label>
+                                     </div>
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="checkbox" id="business" value="businessyes" name="sendme">
+                                        <label class="form-check-label" for="busines">A Business</label>
+                                    </div>
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="checkbox" id="other" value="otheryes" name="sendme">
+                                        <label class="form-check-label" for="other">Other</label>
+                                    </div>
+                                    </div>
+									<br>
+									<div><label for="question"> <h5>I'm dying to tell you about...</h5></label>
+                                        <p></p><textarea name="comment" type="comment" class="validate[required,length[6,300]] feedback-input" id="feedback-comment" required placeholder="Restaurant information here" style="width:100%" required></textarea></p>
+                                </div>
+                                <button type="submit" class="btn my-2 ourButton2"> Submit!</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
 <footer class="text-center"> <!--    Dont worry about the footer being so close, it will move down the more things you add abover it-->
         <div class="container-fluid"> <span class="footerStyle font-weight-bold">Made with  <i class="fas fa-seedling fa-lg" style="color:#668427"></i>  by Hannah + Michelle + Seraphina // Made possible with <a class="img-responsive" href="https://www.codefirstgirls.org.uk/free-community-courses.html" target="_blank"><img src="img/cfg_logo.png" alt="CodeFirst:Girls" id="cfg_logo"></a></span>
         </div>
+        
     </footer>
     <!--    Bootstrap JavaScript CDNs-->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>

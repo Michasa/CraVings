@@ -73,3 +73,8 @@ h1.title {
 h2 {
   color: #bbbbbb;
 }
+div.info_1 {
+    margin: 30px 20% 0 20%;
+    background-color: #dc3545 !important;
+    padding: 10px;
+}
