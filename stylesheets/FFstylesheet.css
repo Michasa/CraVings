@@ -63,6 +63,14 @@ h4.description {
 /*Sidebar*/
 div.RecommendStyle {
     background-color: rgba(254, 176, 28, 0.7) !important;
-;
+}
 
+/*MAP*/
+/*title style, change colour to be same as results title colour*/
+#iw-container .iw-title {
+    font-family: 'Racing Sans One', cursive;
+    font-size: 1.5rem;
+    font-weight: 400;
+    text-align: center;
+    color: #3833a0;
 }

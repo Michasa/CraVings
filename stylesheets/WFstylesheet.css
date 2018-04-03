@@ -65,3 +65,13 @@ h4.description {
 div.RecommendStyle {
     background-color: rgba(232, 117, 28, 0.7);
 }
+
+/*MAP*/
+/*title style, change colour to be same as results title colour*/
+#iw-container .iw-title {
+    font-family: 'Kumar One', cursive;
+    font-size: 1.5rem;
+    font-weight: 400;
+    text-align: center;
+    color: #F26D07;
+}
